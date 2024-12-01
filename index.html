@@ -111,7 +111,15 @@
 				<div><button id="screenshot">Take screenshot</button></div>
 				<p style="text-align: left;">Alternatively, copy the code below to share an editable version of your tierlist. Paste a code into the box below and click "Run code" to load another tier list.</p>
 				<p style="text-align: left;">Note that any game that does not appear in the loaded list will be deselected.</p>
-				<textarea id="exportcode" rows="8"></textarea><div><button id="runCode">Run code</button></div>
+				<textarea id="exportcode" rows="8"></textarea>
+				<div>
+					<button id="runCode">Run code</button>
+					<button id="copyCode">Copy code</button>
+				</div>
+				<div>
+					<button id="postLocalstorage">Save locally in browser</button>
+					<button id="getLocalstorage">Get locally from browser</button>
+				</div>
 			</div>
 			<div id="filterMenu" class="popupMenu">
 				<h1>FILTER</h1>
@@ -217,6 +225,21 @@
 		});
 
 		$(document).on("click", "#runCode", function() {
+			loadCode($("#exportcode").val(), imgGamesFolder);
+		});
+
+		$(document).on("click", "#copyCode", function() {
+			navigator.clipboard.writeText($("#exportcode").val());
+			alert("Successfully copied to clipboard!");
+		});
+
+		$(document).on("click", "#postLocalstorage", function() {
+			var text = $("#exportcode").val()
+			localStorage.setItem("exportCode", text);
+		});
+
+		$(document).on("click", "#getLocalstorage", function() {
+			$("#exportcode").val(localStorage.getItem("exportCode"));
 			loadCode($("#exportcode").val(), imgGamesFolder);
 		});
 
