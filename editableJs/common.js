@@ -57,6 +57,7 @@ function closePopups() {
     $("#modal").css("display", "none");
     $("#charChange").css("display", "none");
     $("#helpMenu").css("display", "none");
+    $("#filterMenu").css("display", "none");
     $("#screenshotShow canvas").remove();
 }
 
