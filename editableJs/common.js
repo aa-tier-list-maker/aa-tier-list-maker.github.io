@@ -150,7 +150,6 @@ function toCode() { // format game==label|color|char1|char2|...==label|color|cha
         if (i != labels.length - 1)
             shareCode += "==";
     }
-    console.log(shareCode);
     return shareCode;
 }
 
@@ -168,7 +167,6 @@ function loadCode(code, defaultList) {
     $("tr").each(function () {
         $(this).remove();
     });
-    console.log(processedCode);
 
     changeGame(defaultList);
     // select only the games that appear

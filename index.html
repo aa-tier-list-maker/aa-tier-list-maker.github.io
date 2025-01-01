@@ -246,7 +246,6 @@
 		});
 			
 		$(document).on("click", function(e) {
-			console.log("click")
 			clicked = e.target.id;
 			if(clicked == "overlay" || clicked == "modalWrapper" || clicked == "close") { // close modals
 				closePopups();
@@ -266,7 +265,6 @@
 		
 		// creates characters, needs to have buildcharacterlist()
 		function changeGame(game) {
-			console.log("changeGame")
 			$(".filterCheck").each( function() {
 				$(this).prop('checked', false).change();
 			});
@@ -280,7 +278,6 @@
 		// creates table and characters
 		$(document).ready( function() {
 			initTable();
-			console.log("initTable")
 			$("#char").html("<div></div>");
 			if (localStorage.getItem("ColorTiersCode") === null)
 				changeGame(imgGamesFolder);
@@ -293,7 +290,6 @@
 		});
 		$(window).resize( function () {
 			tierlistSize();
-			console.log("resize")
 		})
 	</script>
 </body>
