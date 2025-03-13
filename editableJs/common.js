@@ -7,7 +7,7 @@ var selectAllWrap = "<div class='selectAllWrap'></div>";
 var imgGamesFolder = [
     ["octopath", 0, ""],
     ["octo1", 8, "Octopath 1"],
-    ["cotc", 228, "Champions of the Continent"],
+    ["cotc", 234, "Champions of the Continent"],
     ["octo2", 8, "Octopath 2"],
     ["games", 9, "Team Asano Games"],
     ["octopuffs", 10, "Octopuffs"],
