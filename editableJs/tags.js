@@ -17,7 +17,7 @@ var cotc = {}
 for (let i = 0; i < 57; i++) {
     cotc[i] = [fourStar]
     } 
-for (let i = 57; i < allCotCCharacters; i++) {
+for (let i = 57; i <= allCotCCharacters; i++) {
     cotc[i] = [fiveStar]
     } 
         
