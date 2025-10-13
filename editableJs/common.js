@@ -17,9 +17,11 @@ var imgGamesFolder = [
     ["aa5", 0, "Dual Destinies"],
     ["coc", 21, "Contempt of Court"],
     ["aa6", 0, "Spirit of Justice"],
-    ["ryan", 0, "Ryan Mendoza"]
+    ["tsub", 0, "Turnabout Substitution"],
     ["aai1", 0, "Investigations"],
-    ["aai2", 0, "Investigations 2"],
+    ["coi", 0, "Conflict of Interest"],
+    ["aai2", 0, "Investigations 2"]
+    ["ryan", 0, "Ryan Mendoza"],
 ];
 
 window.folders = imgGamesFolder
