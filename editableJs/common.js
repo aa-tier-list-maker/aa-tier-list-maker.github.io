@@ -18,9 +18,9 @@ var imgGamesFolder = [
     ["coc", 21, "Contempt of Court"],
     ["aa6", 0, "Spirit of Justice"],
     ["tsub", 0, "Turnabout Substitution"],
-    ["aai1", 0, "Investigations"],
+    ["aai1", 0, "AAI: Miles Edgeworth"],
     ["coi", 0, "Conflict of Interest"],
-    ["aai2", 0, "Investigations 2"],
+    ["aai2", 0, "AAI2: Prosecutor's Gamit"],
     ["ryan", 0, "Ryan Mendoza"]
 ];
 
