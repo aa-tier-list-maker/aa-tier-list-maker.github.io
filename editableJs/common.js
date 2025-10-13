@@ -5,14 +5,10 @@ var selectAllWrap = "<div class='selectAllWrap'></div>";
 
 // number is last numbered filename in the list for ease of organization
 var imgGamesFolder = [
-    ["octopath", 0, ""],
-    ["octo1", 8, "Octopath 1"],
-    ["cotc", 246, "Champions of the Continent"],
-    ["octo2", 8, "Octopath 2"],
-    ["games", 9, "Team Asano Games"],
-    ["octopuffs", 10, "Octopuffs"],
-    ["rare", 6, "Caits"],
-    ["tristrat", 30, "Triangle Strategy"]
+    ["aa", 0, ""],
+    ["taj", 15, "Trials after Justice"],
+    ["coc", 21, "Contempt of Court"],
+    ["ryan", 0, "Ryan Mendoza"]
 ];
 
 window.folders = imgGamesFolder
