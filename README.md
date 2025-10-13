@@ -23,4 +23,9 @@ The structure is as followed:
 The original Fire Emblem fork also contained many more functionalities that might pique the interest of some people. This includes charts and venn diagrams for the characters. They have been ommitted from this project out of simplicity, but please consider taking a look at https://github.com/fe-tier-list-maker/fe-tier-list-maker.github.io if you want to know more.
 
 ## Wishes to add or improve:
-- More filter options
+Filter options:
+1. Male/Female
+2. Role (prosecutor, defense attorney, victim, culprit, defendant, witness)
+3. Appears in which games?
+
+Spoiler filtering option (needs custom code)
