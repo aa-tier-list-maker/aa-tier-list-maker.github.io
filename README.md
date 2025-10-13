@@ -29,3 +29,5 @@ Filter options:
 3. Appears in which games?
 
 Spoiler filtering option (needs custom code)
+
+Game tier list option
