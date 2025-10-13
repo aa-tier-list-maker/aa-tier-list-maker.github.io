@@ -6,11 +6,18 @@ var selectAllWrap = "<div class='selectAllWrap'></div>";
 // number is last numbered filename in the list for ease of organization
 var imgGamesFolder = [
     ["aa", 0, ""],
+    ["aa1", 0, "Phoenix Wright"],
+    ["aa2", 0, "Justice for All"],
+    ["aa3", 0, "Trials and Tribulations"],
     ["aa4", 31, "Apollo Justice"],
+    ["aai1", 0, "Investigations"],
+    ["aai2", 0, "Investigations 2"],
     ["tgaa1", 34, "TGAA: Adventures"],
+    ["tgaa2", 0, "TGAA2: Resolve"],
+    ["aota", 39, "Attorney of the Arcane"],
     ["taj", 15, "Trials after Justice"],
     ["coc", 21, "Contempt of Court"],
-    ["ryan", 0, "Ryan Mendoza!!!"]
+    ["ryan", 0, "Ryan Mendoza"]
 ];
 
 window.folders = imgGamesFolder
