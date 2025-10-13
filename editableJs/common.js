@@ -12,15 +12,15 @@ var imgGamesFolder = [
     ["tgaa2", 0, "TGAA2: Resolve"],
     ["aa3", 0, "Trials and Tribulations"],
     ["aota", 39, "Attorney of the Arcane"],
-    ["aa4", 31, "Apollo Justice"],
-    ["taj", 15, "Trials after Justice"],
-    ["aa5", 0, "Dual Destinies"],
-    ["coc", 21, "Contempt of Court"],
-    ["aa6", 0, "Spirit of Justice"],
-    ["tsub", 0, "Turnabout Substitution"],
     ["aai1", 0, "AAI: Miles Edgeworth"],
+    ["taj", 15, "Trials after Justice"],
+    ["aai2", 0, "AAI2: Prosecutor's Gambit"],
+    ["coc", 21, "Contempt of Court"],
+    ["aa4", 31, "Apollo Justice"],
+    ["tsub", 0, "Turnabout Substitution"],
+    ["aa5", 0, "Dual Destinies"],
     ["coi", 0, "Conflict of Interest"],
-    ["aai2", 0, "AAI2: Prosecutor's Gamit"],
+    ["aa6", 0, "Spirit of Justice"],
     ["ryan", 0, "Ryan Mendoza"]
 ];
 
