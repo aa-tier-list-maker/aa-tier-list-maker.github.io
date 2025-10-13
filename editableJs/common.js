@@ -8,7 +8,7 @@ var imgGamesFolder = [
     ["aa", 0, ""],
     ["taj", 15, "Trials after Justice"],
     ["coc", 21, "Contempt of Court"],
-    ["ryan", 0, "Ryan Mendoza"]
+    ["ryan", 0, "Ryan Mendoza!!!"]
 ];
 
 window.folders = imgGamesFolder
