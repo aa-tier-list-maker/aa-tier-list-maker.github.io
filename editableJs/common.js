@@ -20,8 +20,8 @@ var imgGamesFolder = [
     ["tsub", 0, "Turnabout Substitution"],
     ["aai1", 0, "Investigations"],
     ["coi", 0, "Conflict of Interest"],
-    ["aai2", 0, "Investigations 2"]
-    ["ryan", 0, "Ryan Mendoza"],
+    ["aai2", 0, "Investigations 2"],
+    ["ryan", 0, "Ryan Mendoza"]
 ];
 
 window.folders = imgGamesFolder
