@@ -10,40 +10,42 @@ var imgGamesFolder = [
     ["aa1", 0, "Phoenix Wright: Ace Attorney"],
     
     ["aa2", 0, "Justice for All"],
+    ["aa2ex", 2, "Justice for All (Extras)"],
+    
     ["aa3", 0, "Trials and Tribulations"],
-    
-    ["aa4", 23, "Apollo Justice: Ace Attorney"],
-    ["aa5", 31, "Dual Destinies"],
-    
-    ["aa6", 28, "Spirit of Justice"],
-    ["plvpw", 0, "Professor Layton"],
+    ["aa3ex", 11, "Trials and Tribulations (Extras)"],
     
     ["aai1", 21, "AAI: Miles Edgeworth"],
+    ["aai1ex", 12, "Investigations (Extras)"],
+    
     ["aai2", 21, "AAI2: Prosecutor's Gambit"],
+    ["aai2ex", 12, "Investigations 2 (Extras)"],
+    
+    ["aa4", 23, "Apollo Justice: Ace Attorney"],
+    ["aa4ex", 10, "Apollo Justice (Extras)"],
+    
+    ["aa5", 31, "Dual Destinies"],
+    ["aa5ex", 0, "Dual Destinies (Extras)"],
+    
+    ["aa6", 28, "Spirit of Justice"],
+    ["aa6ex", 13, "Spirit of Justice (Extras)"],
+    
+    ["plvpw", 0, "Professor Layton"],
+    ["plvpwex", 0, "Professor Layton (Extras)"],
     
     ["tgaa1", 32, "TGAA: Adventures"],
+    ["tgaa1ex", 1, "TGAA: Adventures (Extras)"],
+    
     ["tgaa2", 22, "TGAA2: Resolve"],
+    ["tgaa2ex", 9, "TGAA2: Resolve (Extras)"],
     
     ["aota", 39, "Attorney of the Arcane"],
     ["taj", 15, "Trials after Justice"],
     
     ["coc", 14, "Contempt of Court"],
-    ["ryan", 0, "Ryan Mendoza"],
+    ["cocex", 6, "Contempt of Court (Extras)"],
     
-    ["aa2ex", 0, "Justice for All (Extras)"],
-    ["aa3ex", 11, "Trials and Tribulations (Extras)"],
-    
-    ["aai1ex", 0, "Investigations (Extras)"],
-    ["aai2ex", 0, "Investigations 2 (Extras)"],
-    
-    ["aa4ex", 10, "Apollo Justice (Extras)"],
-    ["aa5ex", 0, "Dual Destinies (Extras)"],
-    
-    ["aa6ex", 0, "Spirit of Justice (Extras)"],
-    ["tgaa1ex", 1, "TGAA: Adventures (Extras)"],
-    
-    ["tgaa2ex", 9, "TGAA2: Resolve (Extras)"],
-    ["cocex", 6, "Contempt of Court (Extras)"]
+    ["ryan", 0, "Ryan Mendoza"]
 ];
 
 window.folders = imgGamesFolder
