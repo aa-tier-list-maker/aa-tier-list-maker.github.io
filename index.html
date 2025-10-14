@@ -40,7 +40,7 @@
 			<hr>
 			<li><button id="reset">Reset</button></li>
 			<hr>
-			<li><button id="layout">Change Layout</button><button id="revert">Revert Layout</button></li>
+			<li><button id="layout">Change Layout</button>
 		</ul>
 	</nav>
 
@@ -97,7 +97,7 @@
 					<b>Filter</b> is a way to only feature specific characters to your selection of characters that you want to tier. <br/> <br/> 
 					<b>Save/Load</b> is a handy way to generate the layout of your tierlist as text, which can be stored and re-used later by pasting it in the open textarea. <br/> <br/> 
 					<b>Reset</b> removes every character from the tierlist and puts it back to the default settings. <br/> <br/> 
-					<b>Change/Revert Layout</b> is an optional button that moves the characters from below the tierlist to right of it for easy access. This change can be reverted. <br/><br/>  
+					<b>Change Layout</b> is an optional button that moves the characters from below the tierlist to right of it for easy access. This change can be reverted. <br/><br/>  
 					<br/> 
 					This is an Open Source project and is deployed through Github Pages. <br/> 
 					Contributors are welcome and are allowed to fork the project to expand the tierlistmaker to other franchises!<br/>
@@ -169,9 +169,10 @@
 		});
 
 		$(document).on("click", "#layout", function() { // move collection of characters next to tierlist
-			if(document.getElementById("wrapper").style.flexDirection = "row") {
-				document.getElementById("wrapper").style.flexDirection = "column"
-			} else {document.getElementById("wrapper").style.flexDirection = "row"
+			direction = document.getElementById("wrapper").style.flexDirection;
+			if(direction = "row") {
+				document.getElementById("wrapper").style.flexDirection = "column";
+			} else {document.getElementById("wrapper").style.flexDirection = "row";
 				   };
 		});
 
