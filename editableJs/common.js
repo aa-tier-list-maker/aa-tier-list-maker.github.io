@@ -18,7 +18,7 @@ var imgGamesFolder = [
     ["plvpw", 0, "Professor Layton"],
     ["aa4", 23, "Apollo Justice: Ace Attorney"],
     
-    ["aa5", 0, "Dual Destinies"],
+    ["aa5", 31, "Dual Destinies"],
     ["aa6", 28, "Spirit of Justice"],
     
     ["tgaa1", 32, "TGAA: Adventures"],
