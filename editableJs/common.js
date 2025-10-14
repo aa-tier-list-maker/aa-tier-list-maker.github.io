@@ -6,7 +6,7 @@ var selectAllWrap = "<div class='selectAllWrap'></div>";
 // number is last numbered filename in the list for ease of organization
 var imgGamesFolder = [
     ["aa", 0, ""],
-    ["pwt", 0, "PW Trilogy Main Characters"],
+    ["pwt", 8, "PW Trilogy Main Characters"],
     ["aa1", 0, "Phoenix Wright: Ace Attorney"],
     
     ["aa2", 0, "Justice for All"],
