@@ -25,7 +25,7 @@ var imgGamesFolder = [
     ["aa4ex", 10, "Apollo Justice (Extras)"],
     
     ["aa5", 31, "Dual Destinies"],
-    ["aa5ex", 0, "Dual Destinies (Extras)"],
+    ["aa5ex", 10, "Dual Destinies (Extras)"],
     
     ["aa6", 28, "Spirit of Justice"],
     ["aa6ex", 13, "Spirit of Justice (Extras)"],
