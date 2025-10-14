@@ -13,7 +13,7 @@ var imgGamesFolder = [
     ["aa4", 23, "Apollo Justice"],
     
     ["aa5", 0, "Dual Destinies"],
-    ["aa6", 0, "Spirit of Justice"],
+    ["aa6", 28, "Spirit of Justice"],
     
     ["aai1", 0, "AAI: Miles Edgeworth"],
     ["aai2", 0, "AAI2: Prosecutor's Gambit"],
@@ -31,6 +31,9 @@ var imgGamesFolder = [
     ["ryan", 0, "Ryan Mendoza"],
     
     ["aa4ex", 10, "Apollo Justice (Extras)"],
+    ["aa5ex", 0, "Dual Destinies (Extras)"],
+    
+    ["aa6ex", 0, "Spirit of Justice (Extras)"],
     ["tgaa1ex", 1, "TGAA: Adventures (Extras)"],
     
     ["tgaa2ex", 9, "TGAA2: Resolve (Extras)"],
