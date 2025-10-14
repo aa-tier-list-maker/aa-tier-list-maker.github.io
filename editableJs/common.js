@@ -10,7 +10,7 @@ var imgGamesFolder = [
     ["aa1", 30, "Phoenix Wright: Ace Attorney"],
     
     ["aa2", 0, "Justice for All"],
-    ["aa2ex", 2, "Justice for All (Extras)"],
+    ["aa2ex", 3, "Justice for All (Extras)"],
     
     ["aa3", 0, "Trials and Tribulations"],
     ["aa3ex", 12, "Trials and Tribulations (Extras)"],
