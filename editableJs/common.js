@@ -31,7 +31,7 @@ var imgGamesFolder = [
     ["ryan", 0, "Ryan Mendoza"],
     
     ["aa2ex", 0, "Justice for All (Extras)"],
-    ["aa3ex", 0, "Trials and Tribulations (Extras)"],
+    ["aa3ex", 11, "Trials and Tribulations (Extras)"],
     
     ["aai1ex", 0, "Investigations (Extras)"],
     ["aai2ex", 0, "Investigations 2 (Extras)"],
