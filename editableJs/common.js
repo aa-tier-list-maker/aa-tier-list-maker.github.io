@@ -12,14 +12,14 @@ var imgGamesFolder = [
     ["aa2", 0, "Justice for All"],
     ["aa3", 0, "Trials and Tribulations"],
     
+    ["aa4", 23, "Apollo Justice: Ace Attorney"],
+    ["aa5", 31, "Dual Destinies"],
+    
+    ["aa6", 28, "Spirit of Justice"],
+    ["plvpw", 0, "Professor Layton"],
+    
     ["aai1", 21, "AAI: Miles Edgeworth"],
     ["aai2", 21, "AAI2: Prosecutor's Gambit"],
-    
-    ["plvpw", 0, "Professor Layton"],
-    ["aa4", 23, "Apollo Justice: Ace Attorney"],
-    
-    ["aa5", 31, "Dual Destinies"],
-    ["aa6", 28, "Spirit of Justice"],
     
     ["tgaa1", 32, "TGAA: Adventures"],
     ["tgaa2", 22, "TGAA2: Resolve"],
