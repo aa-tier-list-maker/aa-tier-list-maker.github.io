@@ -50,6 +50,10 @@
     background-color: #CFCFCF; /* crimson flower */
 }
 
+.sticky {
+	align-self: flex-start;
+}
+
 #char {
 	overflow-x: visible;
 	white-space: normal;
