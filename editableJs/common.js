@@ -13,7 +13,7 @@ var imgGamesFolder = [
     ["aa2ex", 2, "Justice for All (Extras)"],
     
     ["aa3", 0, "Trials and Tribulations"],
-    ["aa3ex", 11, "Trials and Tribulations (Extras)"],
+    ["aa3ex", 12, "Trials and Tribulations (Extras)"],
     
     ["aai1", 21, "AAI: Miles Edgeworth"],
     ["aai1ex", 12, "Investigations (Extras)"],
