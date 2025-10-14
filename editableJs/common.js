@@ -10,6 +10,7 @@ var imgGamesFolder = [
     ["aa2", 0, "Justice for All"],
     ["aa3", 0, "Trials and Tribulations"],
     ["aa4", 31, "Apollo Justice"],
+    ["aa4ex", , "Apollo Justice (Extras)"],
     ["aa5", 0, "Dual Destinies"],
     ["aa6", 0, "Spirit of Justice"],
     ["aai1", 0, "AAI: Miles Edgeworth"],
