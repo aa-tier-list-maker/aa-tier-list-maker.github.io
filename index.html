@@ -169,11 +169,10 @@
 		});
 
 		$(document).on("click", "#layout", function() { // move collection of characters next to tierlist
-			document.getElementById("wrapper").style.flexDirection = "row";
-		});
-
-		$(document).on("click", "#revert", function() { // move collection of characters between below tierlist
-			document.getElementById("wrapper").style.flexDirection = "column";
+			if(document.getElementById("wrapper").style.flexDirection = "row") {
+				document.getElementById("wrapper").style.flexDirection = "column"
+			} else {document.getElementById("wrapper").style.flexDirection = "row"
+				   };
 		});
 
 		$(document).on("change", ".characterCheck", function() { // add/remove characters
