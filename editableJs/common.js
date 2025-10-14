@@ -30,8 +30,8 @@ var imgGamesFolder = [
     ["aa6", 28, "Spirit of Justice"],
     ["aa6ex", 13, "Spirit of Justice (Extras)"],
     
-    ["plvpw", 25, "Professor Layton"],
-    ["plvpwex", 5, "Professor Layton (Extras)"],
+    ["plvpw", 23, "Professor Layton"],
+    ["plvpwex", 7, "Professor Layton (Extras)"],
     
     ["tgaa1", 32, "TGAA: Adventures"],
     ["tgaa1ex", 1, "TGAA: Adventures (Extras)"],
