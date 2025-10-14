@@ -30,13 +30,13 @@ var imgGamesFolder = [
     ["aa6", 28, "Spirit of Justice"],
     ["aa6ex", 13, "Spirit of Justice (Extras)"],
     
-    ["plvpw", 0, "Professor Layton"],
-    ["plvpwex", 0, "Professor Layton (Extras)"],
+    ["plvpw", 25, "Professor Layton"],
+    ["plvpwex", 5, "Professor Layton (Extras)"],
     
     ["tgaa1", 32, "TGAA: Adventures"],
     ["tgaa1ex", 1, "TGAA: Adventures (Extras)"],
     
-    ["tgaa2", 22, "TGAA2: Resolve"],
+    ["tgaa2", 23, "TGAA2: Resolve"],
     ["tgaa2ex", 9, "TGAA2: Resolve (Extras)"],
     
     ["aota", 39, "Attorney of the Arcane"],
@@ -45,7 +45,7 @@ var imgGamesFolder = [
     ["coc", 14, "Contempt of Court"],
     ["cocex", 6, "Contempt of Court (Extras)"],
     
-    ["ryan", 0, "Ryan Mendoza"]
+    ["ryan", 0, "Ryan Mendoza: New Attorney"]
 ];
 
 window.folders = imgGamesFolder
