@@ -10,7 +10,7 @@ var imgGamesFolder = [
     ["aa2", 0, "Justice for All"],
     
     ["aa3", 0, "Trials and Tribulations"],
-    ["aa4", 31, "Apollo Justice"],
+    ["aa4", 23, "Apollo Justice"],
     
     ["aa5", 0, "Dual Destinies"],
     ["aa6", 0, "Spirit of Justice"],
@@ -30,7 +30,7 @@ var imgGamesFolder = [
     ["coi", 0, "Conflict of Interest"],
     ["ryan", 0, "Ryan Mendoza"],
     
-    ["aa4ex", 0, "Apollo Justice (Extras)"],
+    ["aa4ex", 10, "Apollo Justice (Extras)"],
     ["tgaa1ex", 1, "TGAA: Adventures (Extras)"],
     
     ["tgaa2ex", 9, "TGAA2: Resolve (Extras)"],
