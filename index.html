@@ -167,10 +167,10 @@
 		$(document).on("click", "#save", function() { // open save/load modal
 			openScreenshotModal();
 		});
-
+		
 		$(document).on("click", "#layout", function() { // move collection of characters next to tierlist
 			direction = document.getElementById("wrapper").style.flexDirection;
-			if(direction = "row") {
+			if(direction == "row") {
 				document.getElementById("wrapper").style.flexDirection = "column";
 			} else {document.getElementById("wrapper").style.flexDirection = "row";
 				   };
