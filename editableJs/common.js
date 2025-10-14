@@ -28,9 +28,6 @@ var imgGamesFolder = [
     ["taj", 15, "Trials after Justice"],
     
     ["coc", 14, "Contempt of Court"],
-    ["tsub", 0, "Turnabout Substitution"],
-    
-    ["coi", 0, "Conflict of Interest"],
     ["ryan", 0, "Ryan Mendoza"],
     
     ["aa2ex", 0, "Justice for All (Extras)"],
