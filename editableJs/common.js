@@ -21,8 +21,8 @@ var imgGamesFolder = [
     ["aai2", 21, "AAI2: Prosecutor's Gambit"],
     ["aai2ex", 12, "Investigations 2 (Extras)"],
     
-    ["aa4", 23, "Apollo Justice: Ace Attorney"],
-    ["aa4ex", 10, "Apollo Justice (Extras)"],
+    ["aa4", 22, "Apollo Justice: Ace Attorney"],
+    ["aa4ex", 11, "Apollo Justice (Extras)"],
     
     ["aa5", 31, "Dual Destinies"],
     ["aa5ex", 10, "Dual Destinies (Extras)"],
