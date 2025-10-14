@@ -1,10 +1,10 @@
-# Octopath Tier List Maker
+# Ace Attorney Tier List Maker
 
-This is a fork from https://github.com/fe-tier-list-maker/fe-tier-list-maker.github.io which was forked from https://github.com/quetzle/smash-apps
+This is a fork from https://github.com/octopath-tier-list-maker/octopath-tier-list-maker.github.io, which is a fork of https://github.com/fe-tier-list-maker/fe-tier-list-maker.github.io, which itself was forked from https://github.com/quetzle/smash-apps (long lineage)
 
-This is a tier list maker primarily for characters in the Octopath series, ranging from Octopath 1, 2 and Champions of the Continent. It has also been expanded with additional options like the Team Asano gamelist and the rare monsters. Images used are property of Square Enix.
+This is a tier list maker primarily for characters in the Ace Attorney series, ranging from the very first game, *Phoenix Wright: Ace Attorney*, to the current final entry, *Phoenix Wright: Ace Attorney - Spirit of Justice*. It also includes characters from the *Ace Attorney Investigations* and *The Great Ace Attorney* spinoff games. In addition, the tier list also has characters from the fangames *Trials after Justice* and *Contempt of Court*, as well as the *Ace Attorney*-inspired game *Tyrion Cuthbert: Attorney of the Arcane*.
 
-Please review the [contribution guide](https://github.com/octopath-tier-list-maker/octopath-tier-list-maker.github.io/blob/master/CONTRIBUTING.md) if you want to add/modify portraits or functionality.
+Please review the [contribution guide](https://github.com/aa-tier-list-maker/aa-tier-list-maker.github.io/blob/master/CONTRIBUTING.md) if you want to add/modify mugshots or functionality.
 
 ## How to make your own Tier List Maker
 
