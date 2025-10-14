@@ -12,28 +12,29 @@ var imgGamesFolder = [
     ["aa3", 0, "Trials and Tribulations"],
     ["aa4", 31, "Apollo Justice"],
     
-    ["aa4ex", 0, "Apollo Justice (Extras)"],
     ["aa5", 0, "Dual Destinies"],
-    
     ["aa6", 0, "Spirit of Justice"],
+    
     ["aai1", 0, "AAI: Miles Edgeworth"],
-    
     ["aai2", 0, "AAI2: Prosecutor's Gambit"],
-    ["tgaa1", 32, "TGAA: Adventures"],
     
-    ["tgaa1ex", 1, "TGAA: Adventures (Extras)"],
+    ["tgaa1", 32, "TGAA: Adventures"],
     ["tgaa2", 22, "TGAA2: Resolve"],
     
-    ["tgaa2ex", 9, "TGAA2: Resolve (Extras)"],
     ["aota", 39, "Attorney of the Arcane"],
-    
     ["taj", 15, "Trials after Justice"],
-    ["coc", 21, "Contempt of Court"],
     
+    ["coc", 14, "Contempt of Court"],
     ["tsub", 0, "Turnabout Substitution"],
-    ["coi", 0, "Conflict of Interest"],
     
-    ["ryan", 0, "Ryan Mendoza"]
+    ["coi", 0, "Conflict of Interest"],
+    ["ryan", 0, "Ryan Mendoza"],
+    
+    ["aa4ex", 0, "Apollo Justice (Extras)"],
+    ["tgaa1ex", 1, "TGAA: Adventures (Extras)"],
+    
+    ["tgaa2ex", 9, "TGAA2: Resolve (Extras)"],
+    ["cocex", 6, "Contempt of Court (Extras)"]
 ];
 
 window.folders = imgGamesFolder
