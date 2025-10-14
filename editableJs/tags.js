@@ -11,9 +11,9 @@ allTags = [male, female, playable, defense, prosecutor, judge, defendant, witnes
         
 const imgTags = {
     "pwt":{
-        1: [male, playable, defense], // Phoenix Wright
+        0: [male, playable, defense], // Phoenix Wright
     },
     "aa5": {
-        1: [female, playable, defense, defendant], // Athena Cykes
+        0: [female, playable, defense, defendant], // Athena Cykes
     }
 }
