@@ -9,7 +9,7 @@ var imgGamesFolder = [
     ["pwt", 8, "PW Trilogy Main Characters"],
     ["aa1", 30, "Phoenix Wright: Ace Attorney"],
     
-    ["aa2", 0, "Justice for All"],
+    ["aa2", 21, "Justice for All"],
     ["aa2ex", 3, "Justice for All (Extras)"],
     
     ["aa3", 0, "Trials and Tribulations"],
