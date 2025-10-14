@@ -15,7 +15,7 @@ var imgGamesFolder = [
     ["aai1", 0, "AAI: Miles Edgeworth"],
     ["aai2", 0, "AAI2: Prosecutor's Gambit"],
     
-    ["plvpw", 0, "Professor Layton vs. Phoenix Wright"],
+    ["plvpw", 0, "Professor Layton"],
     ["aa4", 23, "Apollo Justice: Ace Attorney"],
     
     ["aa5", 0, "Dual Destinies"],
@@ -36,8 +36,8 @@ var imgGamesFolder = [
     ["aa2ex", 0, "Justice for All (Extras)"],
     ["aa3ex", 0, "Trials and Tribulations (Extras)"],
     
-    ["aai1ex", 0, "AAI: Miles Edgeworth (Extras)"],
-    ["aai2ex", 0, "AAI2: Prosecutor's Gambit (Extras)"],
+    ["aai1ex", 0, "Investigations (Extras)"],
+    ["aai2ex", 0, "Investigations 2 (Extras)"],
     
     ["aa4ex", 10, "Apollo Justice (Extras)"],
     ["aa5ex", 0, "Dual Destinies (Extras)"],
