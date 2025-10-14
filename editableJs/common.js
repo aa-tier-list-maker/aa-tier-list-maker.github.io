@@ -12,7 +12,7 @@ var imgGamesFolder = [
     ["aa2", 0, "Justice for All"],
     ["aa3", 0, "Trials and Tribulations"],
     
-    ["aai1", 22, "AAI: Miles Edgeworth"],
+    ["aai1", 21, "AAI: Miles Edgeworth"],
     ["aai2", 21, "AAI2: Prosecutor's Gambit"],
     
     ["plvpw", 0, "Professor Layton"],
