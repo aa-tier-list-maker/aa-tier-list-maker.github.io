@@ -9,7 +9,7 @@ var imgGamesFolder = [
     ["aa1", 0, "Phoenix Wright"],
     ["tgaa1", 34, "TGAA: Adventures"],
     ["aa2", 0, "Justice for All"],
-    ["tgaa2", 0, "TGAA2: Resolve"],
+    ["tgaa2", 22, "TGAA2: Resolve"],
     ["aa3", 0, "Trials and Tribulations"],
     ["aota", 39, "Attorney of the Arcane"],
     ["aai1", 0, "AAI: Miles Edgeworth"],
