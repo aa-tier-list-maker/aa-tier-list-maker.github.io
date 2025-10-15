@@ -39,7 +39,10 @@ var imgGamesFolder = [
     ["tgaa2", 24, "TGAA2: Resolve"],
     ["tgaa2ex", 9, "TGAA2: Resolve (Extras)"],
     
-    ["aota", 39, "Attorney of the Arcane"],
+    ["gt", 32, "Ghost Trick: Phantom Detective"],
+    ["gtex", 3, "Ghost Trick (Extras)"],
+    
+    ["aota", 39, "Tyrion Cuthbert: Attorney of the Arcane"],
     ["taj", 15, "Trials after Justice"],
     
     ["coc", 14, "Contempt of Court"],
