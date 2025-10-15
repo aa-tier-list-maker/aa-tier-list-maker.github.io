@@ -43,7 +43,7 @@ const imgTags = {
         26: [prosecutor, defendant], // Lana Skye
         27: [victim], // Bruce Goodman
         30: [culprit], // Damon Gant
-        33: [culprit], // Neil Marshall
+        33: [victim], // Neil Marshall
     },
         
     "aa2": {
