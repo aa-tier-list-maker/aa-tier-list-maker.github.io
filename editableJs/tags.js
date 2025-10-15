@@ -1,21 +1,26 @@
-const male = "Male";
-const female = "Female";
 const playable = "Playable Character";
 const defense = "Defense Attorney";
 const prosecutor = "Prosecutor";
 const judge = "Judge";
+const assistant = "Assistant";
 const defendant = "Defendant";
-const witness = "Witness";
 const victim = "Victim";
 const culprit = "Culprit";
 
-allTags = [male, female, playable, defense, prosecutor, judge, defendant, witness, victim, culprit];
+allTags = [playable, defense, prosecutor, judge, defendant, victim, culprit];
         
 const imgTags = {
     "pwt":{
-        0: [male, playable, defense], // Phoenix Wright
+        0: [playable, defense], // Phoenix Wright
+        1: [playable, assistant, defendant], // Maya Fey
+        2: [judge], // Judge
+        3: [playable, defense, prosecutor, defendant], // Miles Edgeworth
+        4: [prosecutor], // Franziska von Karma
+        5: [prosecutor, culprit], // Godot
+        7: [playable, defense, victim], // Mia Fey
+        8: [assistant], // Pearl Fey
     },
     "aa5": {
-        0: [female, playable, defense, defendant], // Athena Cykes
+        0: [playable, defense, defendant], // Athena Cykes
     }
 }
