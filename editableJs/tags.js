@@ -40,8 +40,8 @@ const imgTags = {
         25: [assistant], // Ema Skye
         26: [prosecutor, defendant], // Lana Skye
         27: [victim], // Bruce Goodman
-        27: [culprit], // Damon Gant
-        28: [culprit], // Neil Marshall
+        30: [culprit], // Damon Gant
+        33: [culprit], // Neil Marshall
     }
     "aa5": {
         0: [playable, defense, defendant], // Athena Cykes
