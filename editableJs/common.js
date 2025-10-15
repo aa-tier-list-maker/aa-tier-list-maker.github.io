@@ -42,7 +42,7 @@ var imgGamesFolder = [
     ["gt", 32, "Ghost Trick: Phantom Detective"],
     ["gtex", 3, "Ghost Trick (Extras)"],
     
-    ["aota", 39, "Tyrion Cuthbert: Attorney of the Arcane"],
+    ["aota", 39, "Attorney of the Arcane"],
     ["taj", 15, "Trials after Justice"],
     
     ["coc", 14, "Contempt of Court"],
