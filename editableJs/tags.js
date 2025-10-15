@@ -42,7 +42,25 @@ const imgTags = {
         27: [victim], // Bruce Goodman
         30: [culprit], // Damon Gant
         33: [culprit], // Neil Marshall
-    }
+    },
+    "aa2": {
+        0: [defendant], // Maggey byrde
+        1: [victim], // Dustin Prince
+        2: [culprit], // Richard Wellington
+            
+        3: [victim], // Turner Grey
+        4: [culprit], // Morgan Fey
+        5: [culprit], // Ini Miney
+        6: [culprit], // Mimi Miney
+            
+        9: [defendant], // Max Galactica
+        10: [victim], // Russell Berry
+        17: [culprit], // Acro
+            
+        20: [defendant, culprit], // Matt Engarde
+        21: [victim], // Juan Corrida
+        23: [culprit], // Shelly de Killer
+    },
     "aa5": {
         0: [playable, defense, defendant], // Athena Cykes
     }
