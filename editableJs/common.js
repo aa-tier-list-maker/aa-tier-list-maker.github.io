@@ -24,19 +24,19 @@ var imgGamesFolder = [
     ["aa4", 21, "Apollo Justice: Ace Attorney"],
     ["aa4ex", 12, "Apollo Justice (Extras)"],
     
-    ["aa5", 31, "Dual Destinies"],
+    ["aa5", 32, "Dual Destinies"],
     ["aa5ex", 10, "Dual Destinies (Extras)"],
     
-    ["aa6", 28, "Spirit of Justice"],
+    ["aa6", 30, "Spirit of Justice"],
     ["aa6ex", 13, "Spirit of Justice (Extras)"],
     
-    ["plvpw", 23, "Professor Layton"],
+    ["plvpw", 27, "Professor Layton"],
     ["plvpwex", 7, "Professor Layton (Extras)"],
     
-    ["tgaa1", 32, "TGAA: Adventures"],
+    ["tgaa1", 33, "TGAA: Adventures"],
     ["tgaa1ex", 1, "TGAA: Adventures (Extras)"],
     
-    ["tgaa2", 23, "TGAA2: Resolve"],
+    ["tgaa2", 24, "TGAA2: Resolve"],
     ["tgaa2ex", 9, "TGAA2: Resolve (Extras)"],
     
     ["aota", 39, "Attorney of the Arcane"],
