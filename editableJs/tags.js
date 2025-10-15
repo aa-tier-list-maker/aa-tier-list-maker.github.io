@@ -288,7 +288,7 @@ const imgTags = {
     },
     "plvpwex": {
         0: [playable, defense, assistant], // Phoenix Wright
-        1: [playable, assistant, defendant], // Maya Fey
+        1: [assistant, defendant], // Maya Fey
         2: [defendant], // Espella Cantabela
         4: [culprit], // Kira
         6: [culprit], // Jean Greyerl
