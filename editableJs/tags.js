@@ -86,7 +86,7 @@ const imgTags = {
     "aa3ex": {
         0: [prosecutor], // Winston Payne
         1: [defendant], // Phoenix Wright
-        2: [defense, defendant], // Marvin Grossberg
+        2: [defense, assistant], // Marvin Grossberg
             
         7: [defendant], // Maggey Byrde
             
