@@ -6,8 +6,10 @@ const prosecutor = "Prosecutor";
 const judge = "Judge";
 const defendant = "Defendant";
 const witness = "Witness";
+const victim = "Victim";
+const culprit = "Culprit";
 
-allTags = [male, female, playable, defense, prosecutor, judge, defendant, witness];
+allTags = [male, female, playable, defense, prosecutor, judge, defendant, witness, victim, culprit];
         
 const imgTags = {
     "pwt":{
