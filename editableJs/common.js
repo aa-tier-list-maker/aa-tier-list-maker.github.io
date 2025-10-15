@@ -16,7 +16,7 @@ var imgGamesFolder = [
     ["aa3ex", 12, "Trials and Tribulations (Extras)"],
     
     ["aai1", 20, "AAI: Miles Edgeworth"],
-    ["aai1ex", 12, "Investigations (Extras)"],
+    ["aai1ex", 13, "Investigations (Extras)"],
     
     ["aai2", 22, "AAI2: Prosecutor's Gambit"],
     ["aai2ex", 13, "Investigations 2 (Extras)"],
@@ -25,7 +25,7 @@ var imgGamesFolder = [
     ["aa4ex", 12, "Apollo Justice (Extras)"],
     
     ["aa5", 32, "Dual Destinies"],
-    ["aa5ex", 10, "Dual Destinies (Extras)"],
+    ["aa5ex", 11, "Dual Destinies (Extras)"],
     
     ["aa6", 30, "Spirit of Justice"],
     ["aa6ex", 13, "Spirit of Justice (Extras)"],
