@@ -7,7 +7,7 @@ const defendant = "Defendant";
 const victim = "Victim";
 const culprit = "Culprit";
 
-allTags = [playable, defense, prosecutor, judge, defendant, victim, culprit];
+allTags = [playable, defense, prosecutor, judge, assistant, defendant, victim, culprit];
         
 const imgTags = {
     "pwt":{
