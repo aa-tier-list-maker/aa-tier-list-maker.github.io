@@ -62,6 +62,35 @@ const imgTags = {
         21: [victim], // Juan Corrida
         23: [culprit], // Shelly de Killer
     },
+    "aa3": {
+        0: [victim], // Doug Swallow
+        1: [culprit], // Dahlia Hawthrone
+            
+        2: [defendant], // Ron Delite
+        4: [culprit], // Luke Atmey
+        5: [victim], // Kane Bullard
+            
+        6: [victim], // Glen Elg
+        12: [culprit], // Furio Tigre
+            
+        14: [judge], // Canadian Judge
+        15: [defendant], // Terry Fawles
+        16: [victim], // Valerie Hawthrone
+            
+        17: [defendant], // Iris
+    },
+    "aa3ex": {
+        0: [prosecutor], // Winston Payne
+        1: [defendant], // Phoenix Wright
+        2: [defendant], // Marvin Grossberg
+            
+        7: [defendant], // Maggey Byrde
+            
+        8: [assistant], // Diego Armando
+        9: [prosecutor], // Miles Edgeworth
+            
+        12: [victim], // Misty Fey
+    },
     "aa5": {
         0: [playable, defense, defendant], // Athena Cykes
     }
