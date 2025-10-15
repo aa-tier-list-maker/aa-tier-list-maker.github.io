@@ -20,6 +20,29 @@ const imgTags = {
         7: [playable, defense, victim], // Mia Fey
         8: [assistant], // Pearl Fey
     },
+    "aa1": {
+        0: [prosecutor], // Winston Payne
+        1: [defendant], // Larry Butz
+        2: [victim], // Cindy Stone
+        3: [culprit], // Frank Sahwit
+            
+        4: [defense], // Marvin Grossberg
+        7: [culprit], // Redd White
+            
+        9: [defendant], // Will Powers
+        15: [culprit], // Dee Vasquez
+            
+        16: [prosecutor, culprit], // Manfred von Karma
+        17: [defense, victim], // Robert Hammond
+        21: [culprit], // Yanni Yogi
+        24: [defense, victim], // Gregory Edgeworth
+            
+        25: [assistant], // Ema Skye
+        26: [prosecutor, defendant], // Lana Skye
+        27: [victim], // Bruce Goodman
+        27: [culprit], // Damon Gant
+        28: [culprit], // Neil Marshall
+    }
     "aa5": {
         0: [playable, defense, defendant], // Athena Cykes
     }
