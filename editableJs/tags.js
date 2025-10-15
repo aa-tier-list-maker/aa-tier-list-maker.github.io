@@ -37,7 +37,7 @@ const imgTags = {
         16: [prosecutor, culprit], // Manfred von Karma
         17: [defense, victim], // Robert Hammond
         21: [culprit], // Yanni Yogi
-        24: [defense, victim], // Gregory Edgeworth
+        24: [playable, defense, victim], // Gregory Edgeworth
             
         25: [assistant], // Ema Skye
         26: [prosecutor, defendant], // Lana Skye
