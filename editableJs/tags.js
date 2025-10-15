@@ -267,4 +267,42 @@ const imgTags = {
                 
         10: [prosecutor], // Gaspen Payne
     },
+        
+    "plvpw": {
+        0: [playable, prosecutor, assistant, victim], // Hershell Layton
+        1: [assistant], // Luke Triton
+        2: [assistant, defendant], // Espella Cantabela
+        3: [judge], // Labyrinthian Judge
+        4: [prosecutor], // Zacharias Barnham
+        5: [prosecutor], // Darklaw
+            
+        10: [victim, culprit], // Olivia Aldente
+            
+        12: [victim], // Robbs & Muggs
+        15: [culprit], // Kira
+            
+        22: [victim], // Newton Belduke
+        15: [culprit], // Jean Greyerl
+            
+        24: [victim], // Storyteller
+    },
+    "plvpwex": {
+        0: [playable, defense, assistant], // Phoenix Wright
+        1: [playable, assistant, defendant], // Maya Fey
+        2: [defendant], // Espella Cantabela
+        4: [culprit], // Kira
+        6: [culprit], // Jean Greyerl
+    },
+        
+    "tgaa1": {
+        0: [playable, defense, defendant], // Ryunosuke Naruhodo
+        1: [assistant], // Susato Mikotoba
+        2: [playable, defense, assistant, victim], // Kazuma Asogi
+        3: [assistant], // Herlock Sholmes
+        4: [assistant], // Iris Wilson
+        5: [prosecutor, defendant], // Barok van Zieks
+        6: [defendant], // Gina Lestrade
+        7: [victim], // Tobias Gregson
+        8: [assistant], // Yujin Mikotoba
+    },
 }
