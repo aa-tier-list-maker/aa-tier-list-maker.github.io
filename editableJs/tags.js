@@ -211,7 +211,7 @@ const imgTags = {
             
         26: [defendant], // Solomon Starbuck
         27: [victim], // Clay Terran
-    }
+    },
     "aa5ex": {
         0: [playable, defense, assistant], // Phoenix Wright
         1: [playable, defense, assistant], // Apollo Justice
@@ -255,7 +255,7 @@ const imgTags = {
         26: [defendant], // Ellen Wyatt
         27: [victim], // Dumas Gloomsbury
         29: [culprit], // Pierce Nichody
-    }
+    },
     "aa6ex": {
         0: [playable, defense, assistant], // Phoenix Wright
         1: [playable, defense], // Apollo Justice
