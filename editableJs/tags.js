@@ -63,6 +63,7 @@ const imgTags = {
         20: [defendant, culprit], // Matt Engarde
         21: [victim], // Juan Corrida
         23: [culprit], // Shelly de Killer
+        23: [victim], // Celeste Inpax
     },
         
     "aa3": {
@@ -123,6 +124,7 @@ const imgTags = {
         4: [prosecutor, assistant], // Franziska von Karma
             
         10: [prosecutor], // Manfred von Karma
+        11: [defense], // Calisto Yew
     },
         
     "aai2": {
