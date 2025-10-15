@@ -18,7 +18,7 @@ var imgGamesFolder = [
     ["aai1", 21, "AAI: Miles Edgeworth"],
     ["aai1ex", 12, "Investigations (Extras)"],
     
-    ["aai2", 21, "AAI2: Prosecutor's Gambit"],
+    ["aai2", 22, "AAI2: Prosecutor's Gambit"],
     ["aai2ex", 12, "Investigations 2 (Extras)"],
     
     ["aa4", 22, "Apollo Justice: Ace Attorney"],
