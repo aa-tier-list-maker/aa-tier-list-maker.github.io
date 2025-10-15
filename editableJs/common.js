@@ -15,14 +15,14 @@ var imgGamesFolder = [
     ["aa3", 18, "Trials and Tribulations"],
     ["aa3ex", 12, "Trials and Tribulations (Extras)"],
     
-    ["aai1", 21, "AAI: Miles Edgeworth"],
+    ["aai1", 20, "AAI: Miles Edgeworth"],
     ["aai1ex", 12, "Investigations (Extras)"],
     
     ["aai2", 22, "AAI2: Prosecutor's Gambit"],
     ["aai2ex", 12, "Investigations 2 (Extras)"],
     
-    ["aa4", 22, "Apollo Justice: Ace Attorney"],
-    ["aa4ex", 11, "Apollo Justice (Extras)"],
+    ["aa4", 21, "Apollo Justice: Ace Attorney"],
+    ["aa4ex", 12, "Apollo Justice (Extras)"],
     
     ["aa5", 31, "Dual Destinies"],
     ["aa5ex", 10, "Dual Destinies (Extras)"],
