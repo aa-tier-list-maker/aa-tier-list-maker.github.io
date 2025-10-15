@@ -157,7 +157,114 @@ const imgTags = {
         13: [culprit], // Simeon Saint
     },
         
+    "aa4": {
+        0: [defense], // Apollo Justice
+        1: [assistant], // Trucy Wright
+        2: [defense, assistant, culprit], // Kristoph Gavin
+        3: [prosecutor], // Klavier Gavin
+            
+        4: [victim], // Shadi Smith
+        6: [defendant], // Wocky Kitaki
+        7: [victim], // Pal Meraktis
+        8: [culprit], // Alita Tiala
+        12: [culprit], // Wesley Stickler
+            
+        13: [defendant], // Machi Tobaye
+        14: [defendant], // Romein LeTouse
+        16: [defendant], // Daryan Crescend
+            
+        18: [defendant], // Vera Misham
+        19: [victim], // Drew Misham
+            
+        21: [victim], // Magnifi Gramarye
+    },
+    "aa4ex": {
+        1: [assistant, defendant], // Phoenix Wright
+        2: [prosecutor], // Klavier Gavin
+            
+        4: [prosecutor], // Winston Payne
+            
+        8: [defendant], // Zak Gramarye
+        12: [playable], // Thalassa Gramarye
+    },
+        
     "aa5": {
-        0: [playable, defense, defendant], // Athena Cykes
+        0: [playable, defense, assistant, defendant], // Athena Cykes
+        1: [defendant], // Athena Cykes
+            
+        4: [prosecutor], // Gaspen Payne
+        5: [defendant], // Juniper Woods
+        6: [victim], // Candice Arme
+        7: [culprit], // Ted Tonate
+            
+        8: [defendant], // Damian Tenma
+        9: [victim], // Rex Kyubi
+        12: [culprit], // Florent L'Belle
+            
+        13: [defendant], // Orla Shipley
+        14: [victim], // Jack Shipley
+        15: [defendant], // Sasha Buckler
+        17: [culprit], // Marlon Rimes
+            
+        21: [victim], // Constance Courte
+        22: [culprit], // Aristotle Means
+            
+        26: [defendant], // Solomon Starbuck
+        27: [victim], // Clay Terran
     }
+    "aa5ex": {
+        0: [playable, defense, assistant], // Phoenix Wright
+        1: [playable, defense, assistant], // Apollo Justice
+        2: [playable, defense], // Apollo Justice
+        3: [defense], // Apollo Justice
+        5: [assistant], // Trucy Wright
+        6: [prosecutor], // Miles Edgeworth
+        7: [prosecutor], // Klavier Gavin
+                
+        9: [defendant], // Juniper Woods
+                
+        11: [culprit], // Phantom
+    },
+        
+    "aa6": {
+        0: [prosecutor, defendant], // Nahyuta Sahdmadhi
+        1: [judge], // Khura'in Judge
+        2: [assistant], // Rayfa Padma Khura'in
+            
+        3: [defendant], // Ahlbi Ur'gaid
+        4: [victim], // Paht Rohl
+        5: [culprit], // Pees'lubn Andistan'dhin
+            
+        7: [victim], // Manov Mistree
+        10: [culprit], // Roger Retinz
+            
+        11: [victim, culprit], // Tahrust Inmee
+        12: [victim, culprit], // Puhray Zeh'lot
+            
+        15: [defendant], // Bucky Whet
+        16: [victim], // Taifu Toneido
+        18: [culprit], // Geiru Toneido
+            
+        19: [assistant, defendant, victim], // Dhurke Sahdmadhi
+        20: [victim], // Archie Buff
+        21: [culprit], // Paul Atishon
+            
+        23: [victim], // Inga Karkhuul Khura'in
+        25: [culprit], // Ga'ran Sigatar Khura'in
+            
+        26: [defendant], // Ellen Wyatt
+        27: [victim], // Dumas Gloomsbury
+        29: [culprit], // Pierce Nichody
+    }
+    "aa6ex": {
+        0: [playable, defense, assistant], // Phoenix Wright
+        1: [playable, defense], // Apollo Justice
+        2: [playable, defense, assistant], // Athena Cykes
+        3: [assistant], // Maya Fey
+        6: [defendant], // Trucy Wright
+        7: [prosecutor, assistant], // Miles Edgeworth
+        8: [prosecutor, assistant], // Simon Blackquill
+                
+        10: [prosecutor], // Gaspen Payne
+    },
 }
