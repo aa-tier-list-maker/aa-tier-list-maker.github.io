@@ -7,7 +7,7 @@ var selectAllWrap = "<div class='selectAllWrap'></div>";
 var imgGamesFolder = [
     ["aa", 0, ""],
     ["pwt", 8, "PW Trilogy Main Characters"],
-    ["aa1", 30, "Phoenix Wright: Ace Attorney"],
+    ["aa1", 34, "Phoenix Wright: Ace Attorney"],
     
     ["aa2", 25, "Justice for All"],
     ["aa2ex", 3, "Justice for All (Extras)"],
