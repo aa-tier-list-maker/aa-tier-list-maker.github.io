@@ -30,6 +30,7 @@ const imgTags = {
         7: [culprit], // Redd White
             
         9: [defendant], // Will Powers
+        10: [victim], // Jack Hammer
         15: [culprit], // Dee Vasquez
             
         16: [prosecutor, culprit], // Manfred von Karma
