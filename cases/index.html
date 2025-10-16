@@ -1,0 +1,267 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8"> 
+	<link rel="icon" type="image/x-icon" href= "../img/icon.png"/>
+	<title>Ace Attorney Tier List Maker</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,100italic" rel="stylesheet" type="text/css">
+	<link href="../styles/newstyle.css" rel="stylesheet">
+	<link href="../styles/nav.css" rel="stylesheet">
+	<link href="../styles/dragula.min.css" rel="stylesheet">
+	<link href="casestyle.css" rel="stylesheet">
+	
+	<meta name="google-site-verification" content="mhlxk9_OOcyed8If_JjdkOZv6GmGPYfSnbsafwWmRC4" />
+	<meta name="keywords" content="Ace Attorney, Tier List, Phoenix Wright, Apollo Justice, Objection.lol, All Cases">
+	<meta name="viewport" content="user-scalable=no">
+	
+	<meta property="description" content="Tier list maker for every case in the Ace Attorney series. Filter by game, role, and other categories all at once."/>
+	<meta property="og:title" content="Ace Attorney Tier List Maker"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="https://aa-tier-list-maker.github.io/cases/"/>
+	<meta property="og:image" content="https://aa-tier-list-maker.github.io/img/preview_image.png">
+	<meta property="og:image:secure_url" content="https://aa-tier-list-maker.github.io/img/preview_image.png">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:description" content="Tier list maker for every case in the Ace Attorney series. Filter by type, developer, and other categories all at once."/>
+	
+</head>
+<body style="background-color:rgb(26, 26, 26);">
+	<nav id="nav" class="nav">
+		<ul>
+			<li><button id="dock">Dock tier list</button></li>
+			<hr>
+			<li><button id="hidebuttons">Hide controls</button></li>
+			<hr>
+			<li><button id="characters">Change cases</button></li>
+			<hr>
+			<li><button id="help">Help</button></li>
+			<hr>
+			<li><button id="save">Save/Load</button></li>
+			<hr>
+			<li><button id="reset">Reset</button></li>
+			<hr>
+			<li><button id="layout">Change Layout</button>
+			<br><br><br>
+			<li><a href="https://aa-tier-list-maker.github.io/">Character Tier List</a>
+			<hr>
+			<li><a href="https://aa-tier-list-maker.github.io/games/">Game Tier List</a>
+			<hr>
+			<li><strong>Game Tier List</strong></a>
+		</ul>
+	</nav>
+
+	<div id="controls" style="color:white;">
+		<div class="nav-toggle">
+			<div class="nav-toggle-bar"></div>
+		</div>	
+		<h1 id="titleHeading">CASE TIER LIST MAKER</h1>
+	</div>
+
+	<div id="tablewrap">
+		<div id="tablePlaceholder" style="height:500px"></div>
+		<table id="tablemain">
+			<tbody></tbody>
+		</table>
+	</div>
+
+	<div id="char" class="sort">
+		<div>If no titles are loaded here, choose a case by clicking the "Change case" button above.</div>
+	</div>
+
+	<div id="overlay">
+		<div id="modalWrapper">
+			<div id="modal" class="popupMenu">
+				<h1>SETTINGS</h1>
+				<span id="close"></span>
+				<p>Choose label color:</p>
+				<div id="colorselect"><span style="background:#FF7F7F"></span><span
+						style="background:#FFBF7F"></span><span style="background:#FFDF7F"></span><span
+						style="background:#FFFF7F"></span><span style="background:#BFFF7F"></span><span
+						style="background:#7FFF7F"></span><span style="background:#7FFFFF"></span><span
+						style="background:#7FBFFF"></span><span style="background:#7F7FFF"></span><span
+						style="background:#FF7FFF"></span><span style="background:#BF7FBF"></span><span
+						style="background:#3B3B3B"></span><span style="background:#858585"></span><span
+						style="background:#CFCFCF"></span><span style="background:#F7F7F7"></span></div>
+				<p>Label name:</p><textarea id="labelName"></textarea></p>
+				<button id="resetLabel">Reset label</button>
+				<p>Row functions:</p>
+				<p><button id="deleteRow">Delete row</button> <button id="clearRow">Clear row</button></p>
+				<p><button id="addRowUp">Add row above</button> <button id="addRowBelow">Add row below</button></p>
+			</div>
+			<div id="charChange" class="popupMenu">
+				<h1>CHANGE CASES</h1>
+				<span id="close"></span>
+				<div id="checklist">
+					<div></div>
+				</div>
+				<p><strong>Hiding a category will remove every case from that category from your tierlist!</strong> Do not
+					click unless you are sure you want to change! You cannot undo this.</p>
+			</div>
+			<div id="helpMenu" class="popupMenu">
+				<h1>HELP</h1>
+				<span id="close"></span>
+				<p>An expansive tierlist maker for the Ace Attorney series.<br/> <br/> 
+					<b>Dock Tierlist</b> allows you to always see the tierlist, even when scrolling down. <br/> <br/> 
+					<b>Hide Controls</b> removes the tool widget and arrows from the tierlist, allowing for a simpler design if no customization is neccessary. <br/> <br/> 
+					<b>Change Cases</b> allows you to add and remove cases to the selection that you want to tier. <br/>  <br/> 
+					<b>Filter</b> is a way to only feature specific cases to your selection of cases that you want to tier. <br/> <br/> 
+					<b>Save/Load</b> is a handy way to generate the layout of your tierlist as text, which can be stored and re-used later by pasting it in the open textarea. <br/> <br/> 
+					<b>Reset</b> removes every case from the tierlist and puts it back to the default settings. <br/> <br/> 
+					<b>Change Layout</b> is an optional button that moves the case from below the tierlist to right of it for easy access. This change can be reverted. <br/><br/>  
+					<br/> 
+					This is an Open Source project and is deployed through Github Pages. <br/> 
+					Contributors are welcome and are allowed to fork the project to expand the tierlistmaker to other franchises!<br/>
+					For questions, please contact me on Discord; my username is eyac3_37937.<br/> 
+					Source Code can be found here: <a href="https://github.com/aa-tier-list-maker/aa-tier-list-maker.github.io">Click here</a></p>
+			</div>
+			<div id="screenshotShow" class="popupMenu">
+				<h1>SAVE/LOAD</h1>
+				<span id="close"></span>
+				<p style="text-align: left;">Your image will appear above after pressing "Take screenshot". You can copy
+					or save this image.</p>
+				<div><button id="screenshot">Take screenshot</button></div>
+				<p style="text-align: left;">Alternatively, copy the code below to share an editable version of your
+					tierlist. Paste a code into the box below and click "Run code" to load another tier list.</p>
+				<p style="text-align: left;">Note that any case that does not appear in the loaded list will be
+					deselected.</p>
+				<textarea id="exportcode" rows="8"></textarea>
+				<div><button id="runCode">Run code</button></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="../lib/dragula.min.js"></script>
+	<script src="../lib/html2canvas.min.js"></script>
+	<script src="../lib/jquery.min.js"></script>
+	<script src="../editableJs/common.js"></script>
+	<script src="../lib/tables.js"></script>
+	<script>
+		dragula({
+			isContainer: function (el) {
+				return el.classList.contains('sort');
+			}
+		}).on("drop", function () {
+			localStorage.setItem("TierListMakerCode", toCode());
+		});
+
+		var gameAll = [
+		["cases", 0, ""],
+		["pwt", 13, "Phoenix Wright Trilogy"],
+		["aai", 9, "Ace Attorney Investigations"],
+		["ajt", 17, "Apollo Justice Trilogy"],
+		["plvpw", 4, "Professor Layton"],
+		["tgaa", 9, "The Great Ace Attorney"],
+		];
+
+		var tier = []; // format: [element, color id]
+
+		$(document).on("click", ".nav-toggle", function () {
+			toggleTooltip();
+		});
+
+		$(document).on("click", "#dock", function () {
+			toggleTierListDock();
+		});
+
+		$(document).on("click", "#settings", function () {
+			openTierSettings(this);
+		});
+
+		$(document).on("click", "#colorselect span", function () {
+			changeTierColour(this);
+		});
+
+		$(document).on("click", "#save", function () { // open save/load modal
+			openScreenshotModal();
+		});
+
+		$(document).on("change", ".characterCheck", function () { // add/remove characters
+			changeCharacterCheckbox(this, "jpg");
+		});
+
+		$(document).on("dblclick", ".character", function () { // move to highest tier instantly
+			$(this).detach().appendTo('#rows');
+		});
+
+		$(document).on("click", "#hidebuttons", function () {
+			toggleTierControls();
+		});
+
+		$(document).on("click", "#screenshot", function () {
+			takeScreenshot();
+		});
+
+		$(document).on("click", "#clearRow", function () {
+			clearTierRow();
+		});
+
+		$(document).on("click", "#deleteRow", function () {
+			deleteTierRow();
+			$("#overlay").css("opacity", 0);
+			$("#overlay").css("visibility", "hidden");
+			closePopups();
+		});
+
+		$(document).on("click", "#addRowUp", function () {
+			addTierRowAbove();
+		});
+
+		$(document).on("click", "#addRowBelow", function () {
+			addTierRowBelow();
+		});
+
+		$(document).on("click", "#moveUp", function () {
+			moveTierRowUp(this);
+		});
+
+		$(document).on("click", "#moveDown", function () {
+			moveTierRowDown(this);
+		});
+
+		$(document).on("click", "#runCode", function () {
+			loadCode($("#exportcode").val(), gameFe);
+		});
+
+		$(document).on("click", "#reset", function () {
+			changeGame(gameAll);
+		});
+
+		$(document).on("click", function (e) {
+			clicked = e.target.id;
+			if (clicked == "overlay" || clicked == "modalWrapper" || clicked == "close") { // close modals
+				closePopups();
+				$("#screenshotShow").css("display", "none");
+				$("#overlay").css("opacity", 0);
+				$("#overlay").css("visibility", "hidden");
+			}
+		});
+
+		$("#labelName").bind("input propertychange", function () {
+			changeTierLabelText();
+		});
+
+		$("#resetLabel").on("click", function () {
+			resetTierLabel();
+		});
+
+		function changeGame(game) {
+			buildCharacterLists(game);
+			$(".selectAll").prop('checked', true).change();
+			$("h1 span").text(currentGame);
+		}
+
+		$(document).ready(function () {
+			initTable();
+			$("#char").html("<div></div>");
+			if (localStorage.getItem("ColorTiersCode") === null)
+				changeGame(gameAll);
+			else {
+				$("#exportcode").val(localStorage.getItem("ColorTiersCode"));
+				loadCode(localStorage.getItem("ColorTiersCode"), gameAll);
+			}
+			tierlistSize();
+		});
+		$(window).resize(function () {
+			tierlistSize();
+		})
+	</script>
+</body>
