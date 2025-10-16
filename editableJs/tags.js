@@ -139,7 +139,6 @@ const imgTags = {
         7: [defendant], // Simeon Saint
         9: [culprit], // Fifi Laguarde
             
-        12: [defendant], // Samson Tangaroa
         13: [victim], // Artie Frost
         14: [culprit], // Judy Bound
         15: [victim, culprit], // Carmelo Gusto
