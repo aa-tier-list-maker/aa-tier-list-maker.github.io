@@ -269,7 +269,7 @@ const imgTags = {
     },
         
     "plvpw": {
-        0: [playable, prosecutor, assistant, victim], // Hershell Layton
+        0: [playable, prosecutor, assistant, victim], // Hershel Layton
         1: [assistant], // Luke Triton
         2: [assistant, defendant], // Espella Cantabela
         3: [judge], // Labyrinthian Judge
