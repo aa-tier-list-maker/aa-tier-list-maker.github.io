@@ -364,31 +364,68 @@ const imgTags = {
     "aota": {
         0: [playable, defense, prosecutor], // Tyrion Cuthbert
         1: [assistant], // Celeste McCoy
-        2: [playable, defense], // 
+        2: [playable, defense], // Ruby Tymora
         3: [prosecutor, defendant, culprit], // Aria Steelwind
             
-        5: [victim], // 
-        6: [victim, culprit], // 
+        5: [victim], // Flinhart McCoy
+        6: [victim, culprit], // Garrick Pierce
             
-        9: [defendant], // 
-        10: [culprit], // 
-        11: [culprit], // 
-        12: [culprit], // 
+        9: [defendant], // Wallace Nightgrave
+        10: [victim], // Catherine Bellwether
+        11: [culprit], // Eris Illmater
+        12: [culprit], // Theodore Redmond
             
-        17: [defendant], // 
-        10: [culprit], // 
-        11: [culprit], // 
-        12: [culprit], // 
+        17: [defendant], // Stefanic Dracogen
+        19: [culprit], // Lloyd von Sanctus
+        21: [culprit], // Aster de Wyverngarde
             
-        17: [defendant], // 
-        19: [defendant, victim], // 
-        21: [culprit], // 
-            
-        24: [defendant, culprit], // 
-        25: [victim], // 
+        24: [defendant, culprit], // Beatrice Frega
+        25: [victim], // William Frega
             
         34: [prosecutor], // Lucio Steelwind
-        38: [victim], // 
-        39: [judge], // Lucio Steelwind
+        38: [victim], // Coraline Sibyl
+        39: [judge], // Rathallion, the Scaled Lord
+    },  
+        
+    "taj": {
+        0: [prosecutor], // Luis Hawk
+            
+        1: [defendant], // 
+        2: [victim], // 
+        3: [culprit], // 
+            
+        4: [defendant], // 
+        5: [victim], // 
+        8: [culprit], // 
+            
+        10: [defendant], // 
+        11: [victim], // 
+        14: [culprit], // 
+    },  
+        
+    "coc": {
+        0: [defendant], // Robert Snow
+        1: [prosecutor, culprit], // Vex Vulper
+        2: [prosecutor, victim], // Erol Brisbane
+            
+        3: [victim], // 
+        4: [playable, defense, defendant], // 
+        5: [victim], // Titus Krump
+            
+        6: [defendant], // 
+        7: [culprit], // 
+        8: [victim], // Stan Nyph
+            
+        11: [defendant, culprit], // 
+        13: [victim], // 
+    },  
+    "coc": {
+        2: [defendant], // Erol Brisbane
+        5: [culprit], // Hemlock
+        6: [culprit], // Boogeyman
+    },  
+        
+    "ryan": {
+        0: [prosecutor], // Rodrigo Starwalker
     },  
 }
