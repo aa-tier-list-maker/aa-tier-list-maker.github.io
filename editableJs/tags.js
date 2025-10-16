@@ -63,7 +63,7 @@ const imgTags = {
         20: [defendant, culprit], // Matt Engarde
         21: [victim], // Juan Corrida
         23: [culprit], // Shelly de Killer
-        23: [victim], // Celeste Inpax
+        25: [victim], // Celeste Inpax
     },
         
     "aa3": {
