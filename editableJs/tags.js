@@ -352,8 +352,8 @@ const imgTags = {
         1: [victim], // Lynne
         3: [victim], // Jowd
         4: [victim], // Cabanela
-        4: [victim], // Kamila
-        4: [playable, victim], // Missile
+        5: [victim], // Kamila
+        6: [playable, victim], // Missile
         12: [victim], // Pidgeon Man
         15: [victim], // Justice Minister
         19: [victim], // Guardian of the Park
