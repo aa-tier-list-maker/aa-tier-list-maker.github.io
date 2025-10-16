@@ -40,7 +40,7 @@ var imgGamesFolder = [
     ["tgaa2ex", 10, "TGAA2: Resolve (Extras)"],
     
     ["gt", 32, "Ghost Trick: Phantom Detective"],
-    ["gtex", 3, "Ghost Trick (Extras)"],
+    ["gtex", 4, "Ghost Trick (Extras)"],
     
     ["aota", 39, "Attorney of the Arcane"],
     ["taj", 15, "Trials after Justice"],
