@@ -313,7 +313,7 @@ const imgTags = {
             
         17: [culprit], // Mael Stronghart
         18: [culprit], // Magnus McGuilded
-        19: [victim], // 
+        19: [victim], // "Thrice-Fired" Mason
             
         23: [defendant], // Soseki Natsume
         24: [victim, culprit], // Olive Green
@@ -324,13 +324,13 @@ const imgTags = {
     },
         
     "tgaa2": {
-        0: [defendant], // 
-        1: [culprit], // 
+        0: [defendant], // Rei Membami
+        1: [culprit], // Raiten Menimemo
             
         2: [victim, culprit], // William Shamspheare
         5: [victim], // Duncan Ross
             
-        7: [defendant], // 
+        7: [defendant], // Albert Harebrayne
         8: [victim], // Odie Asman
         14: [culprit], // Enoch Drebber
             
