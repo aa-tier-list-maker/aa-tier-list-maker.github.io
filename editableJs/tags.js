@@ -344,7 +344,7 @@ const imgTags = {
         1: [prosecutor], // Taketsuchi Auchi
             
         5: [prosecutor], // Kazuma Asogi
-        9: [playable], // Yujin Mikotoba
+        8: [playable], // Yujin Mikotoba
     },
         
     "gt": {
