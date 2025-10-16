@@ -419,7 +419,7 @@ const imgTags = {
         11: [defendant, culprit], // 
         13: [victim], // 
     },  
-    "coc": {
+    "cocex": {
         2: [defendant], // Erol Brisbane
         5: [culprit], // Hemlock
         6: [culprit], // Boogeyman
