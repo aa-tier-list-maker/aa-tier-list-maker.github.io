@@ -1,0 +1,86 @@
+td {
+	border: solid 3px black;
+	margin: 0;
+	padding: 0;
+	height: 12.5vw;
+}
+
+@media only screen and (min-width: 641px) {
+	td {
+		height: 80px;
+	}
+}
+
+.labelHolder {
+	min-width: 12.5vw;
+	height: 12.5vw;
+	transition: background .3s;
+}
+
+@media (min-width: 641px) {
+	.labelHolder {
+		min-width: 80px;
+		height: 80px;
+	}
+}
+
+.label {
+	min-width: 8vw;
+	max-width: 20vw;
+}
+
+@media (min-width: 481px) {
+	.label {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 641px) {
+	.label {
+		min-width: 56px;
+		max-width: 128px;
+	}
+}
+
+.tier {
+	min-height: 12.5vw;
+}
+
+@media (min-width: 641px) {
+	.tier {
+		min-height: 80px;
+	}
+}
+
+img {
+	height: 80px;
+}
+
+.character {
+	height: 12.5vw;
+	width: 12.5vw;
+}
+
+@media only screen and (min-width: 641px) {
+	.character {
+		height: 80px;
+		width: 80px;
+	}
+}
+
+.selectAllWrap {
+	width: 50%;
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-bottom: 0px;
+	display:inline-block;
+}
+
+@media only screen and (min-width: 900px) {
+	.selectAllWrap {
+		width: 36%;
+		padding-left: 4%;
+		padding-right: 4%;
+		padding-bottom: 1px;
+	}
+}
