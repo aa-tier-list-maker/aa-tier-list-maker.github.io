@@ -158,7 +158,7 @@ const imgTags = {
     },
         
     "aa4": {
-        0: [defense], // Apollo Justice
+        0: [playable, defense], // Apollo Justice
         1: [assistant], // Trucy Wright
         2: [defense, assistant, culprit], // Kristoph Gavin
         3: [prosecutor], // Klavier Gavin
@@ -240,6 +240,7 @@ const imgTags = {
             
         11: [victim, culprit], // Tahrust Inmee
         12: [victim, culprit], // Puhray Zeh'lot
+        13: [defendant], // Datz Are'bal
             
         15: [defendant], // Bucky Whet
         16: [victim], // Taifu Toneido
@@ -304,5 +305,90 @@ const imgTags = {
         6: [defendant], // Gina Lestrade
         7: [victim], // Tobias Gregson
         8: [assistant], // Yujin Mikotoba
+            
+        9: [prosecutor], // Taketsuchi Auchi
+        10: [victim], // John H. Wilson
+        14: [victim, culprit], // Asa Shinn
+            
+        15: [culprit], // Nikolina Pavlova
+            
+        17: [culprit], // Mael Stronghart
+        18: [culprit], // Magnus McGuilded
+        19: [victim], // 
+            
+        23: [defendant], // Soseki Natsume
+        24: [victim, culprit], // Olive Green
+        25: [culprit], // Joan Garrideb
+            
+        23: [victim], // Pop Windibank
+        24: [culprit], // Ashley Graydon
     },
+        
+    "tgaa2": {
+        0: [defendant], // 
+        1: [culprit], // 
+            
+        2: [victim, culprit], // William Shamspheare
+        5: [victim], // Duncan Ross
+            
+        7: [defendant], // 
+        8: [victim], // Odie Asman
+        14: [culprit], // Enoch Drebber
+            
+        15: [culprit], // Seishiro Jigoku
+        23: [victim], // Genshin Asogi
+        24: [victim, culprit], // Klint van Zieks
+    }, 
+    "tgaa2ex": {
+        0: [playable, defense], // Ryutaro Naruhodo
+        1: [prosecutor], // Taketsuchi Auchi
+            
+        5: [prosecutor], // Kazuma Asogi
+        9: [playable], // Yujin Mikotoba
+    },
+        
+    "gt": {
+        0: [playable, victim], // Yomiel
+        1: [victim], // Lynne
+        3: [victim], // Jowd
+        4: [victim], // Cabanela
+        4: [victim], // Kamila
+        4: [playable, victim], // Missile
+        12: [victim], // Pidgeon Man
+        15: [victim], // Justice Minister
+        19: [victim], // Guardian of the Park
+        20: [victim], // Rindge
+        32: [playable, victim], // Sissel
+    },  
+        
+    "aota": {
+        0: [playable, defense, prosecutor], // Tyrion Cuthbert
+        1: [assistant], // Celeste McCoy
+        2: [playable, defense], // 
+        3: [prosecutor, defendant, culprit], // Aria Steelwind
+            
+        5: [victim], // 
+        6: [victim, culprit], // 
+            
+        9: [defendant], // 
+        10: [culprit], // 
+        11: [culprit], // 
+        12: [culprit], // 
+            
+        17: [defendant], // 
+        10: [culprit], // 
+        11: [culprit], // 
+        12: [culprit], // 
+            
+        17: [defendant], // 
+        19: [defendant, victim], // 
+        21: [culprit], // 
+            
+        24: [defendant, culprit], // 
+        25: [victim], // 
+            
+        34: [prosecutor], // Lucio Steelwind
+        38: [victim], // 
+        39: [judge], // Lucio Steelwind
+    },  
 }
