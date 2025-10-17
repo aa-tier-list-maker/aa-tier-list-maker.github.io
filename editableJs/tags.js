@@ -312,7 +312,7 @@ const imgTags = {
         15: [culprit], // Nikolina Pavlova
             
         17: [culprit], // Mael Stronghart
-        18: [culprit], // Magnus McGuilded
+        18: [defendant, culprit], // Magnus McGuilded
         19: [victim], // "Thrice-Fired" Mason
             
         23: [defendant], // Soseki Natsume
