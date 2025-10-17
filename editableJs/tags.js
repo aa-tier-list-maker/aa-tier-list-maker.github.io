@@ -304,18 +304,23 @@ const imgTags = {
         6: [defendant], // Gina Lestrade
         7: [victim], // Tobias Gregson
         8: [assistant], // Yujin Mikotoba
+            
         9: [prosecutor], // Taketsuchi Auchi
         10: [victim], // John H. Wilson
         14: [victim, culprit], // Asa Shinn
+            
         15: [culprit], // Nikolina Pavlova
+            
         17: [culprit], // Mael Stronghart
         18: [culprit], // Magnus McGuilded
         19: [victim], // "Thrice-Fired" Mason
+            
         23: [defendant], // Soseki Natsume
         24: [victim, culprit], // Olive Green
         25: [culprit], // Joan Garrideb
-        23: [victim], // Pop Windibank
-        24: [culprit], // Ashley Graydon
+            
+        30: [victim], // Pop Windibank
+        31: [culprit], // Ashley Graydon
     },
         
     "tgaa2": {
