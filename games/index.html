@@ -46,6 +46,8 @@
 			<li><strong>Game Tier List</strong></a>
 			<hr>
 			<li><a href="../cases/">Case Tier List</a>
+			<br><br><br>
+			<li><button id="fangame">Fangame Links</button>
 		</ul>
 	</nav>
 
@@ -55,13 +57,12 @@
 		</div>	
 		<h1 id="titleHeading">GAME TIER LIST MAKER</h1>
 	</div>
-
-	<div id="tablewrap">
-		<div id="tablePlaceholder" style="height:500px"></div>
-		<table id="tablemain">
-			<tbody></tbody>
-		</table>
-	</div>
+	
+	<div id="wrapper">
+		<div id="tablewrap">
+			<div id="tablePlaceholder" style="height:500px"></div>
+			<table id="tablemain"><tbody></tbody></table>
+		</div>
 
 	<div id="char" class="sort">
 		<div>If no titles are loaded here, choose a game by clicking the "Change game" button above.</div>
@@ -87,6 +88,7 @@
 				<p><button id="deleteRow">Delete row</button> <button id="clearRow">Clear row</button></p>
 				<p><button id="addRowUp">Add row above</button> <button id="addRowBelow">Add row below</button></p>
 			</div>
+			
 			<div id="charChange" class="popupMenu">
 				<h1>CHANGE GAMES</h1>
 				<span id="close"></span>
@@ -96,23 +98,42 @@
 				<p><strong>Hiding a category will remove every game from that category from your tierlist!</strong> Do not
 					click unless you are sure you want to change! You cannot undo this.</p>
 			</div>
+			
 			<div id="helpMenu" class="popupMenu">
 				<h1>HELP</h1>
 				<span id="close"></span>
-				<p>An expansive tierlist maker for the Ace Attorney series.<br/> <br/> 
-					<b>Dock Tierlist</b> allows you to always see the tierlist, even when scrolling down. <br/> <br/> 
-					<b>Hide Controls</b> removes the tool widget and arrows from the tierlist, allowing for a simpler design if no customization is neccessary. <br/> <br/> 
-					<b>Change Games</b> allows you to add and remove games to the selection that you want to tier. <br/>  <br/> 
-					<b>Filter</b> is a way to only feature specific games to your selection of games that you want to tier. <br/> <br/> 
-					<b>Save/Load</b> is a handy way to generate the layout of your tierlist as text, which can be stored and re-used later by pasting it in the open textarea. <br/> <br/> 
-					<b>Reset</b> removes every game from the tierlist and puts it back to the default settings. <br/> <br/> 
-					<b>Change Layout</b> is an optional button that moves the games from below the tierlist to right of it for easy access. This change can be reverted. <br/><br/>  
-					<br/> 
-					This is an Open Source project and is deployed through Github Pages. <br/> 
+				<p>An expansive tierlist maker for the Ace Attorney series.<br/><br/>
+					<b>Dock Tierlist</b> allows you to always see the tierlist, even when scrolling down.<br/><br/>
+					<b>Hide Controls</b> removes the tool widget and arrows from the tierlist, allowing for a simpler design if no customization is neccessary.<br/><br/>
+					<b>Change Games</b> allows you to add and remove games to the selection that you want to tier.<br/><br/>
+					<b>Filter</b> is a way to only feature specific games to your selection of games that you want to tier.<br/><br/>
+					<b>Save/Load</b> is a handy way to generate the layout of your tierlist as text, which can be stored and re-used later by pasting it in the open textarea.<br/><br/>
+					<b>Reset</b> removes every game from the tierlist and puts it back to the default settings.<br/><br/>
+					<b>Change Layout</b> is an optional button that moves the games from below the tierlist to right of it for easy access. This change can be reverted.<br/><br/> 
+					<br/>
+					This is an Open Source project and is deployed through Github Pages.<br/>
 					Contributors are welcome and are allowed to fork the project to expand the tierlistmaker to other franchises!<br/>
-					For questions, please contact me on Discord; my username is eyac3_37937.<br/> 
+					For questions, please contact me on Discord; my username is eyac3_37937.<br/>
 					Source Code can be found here: <a href="https://github.com/aa-tier-list-maker/aa-tier-list-maker.github.io">Click here</a></p>
 			</div>
+			
+			<div id="fangameMenu" class="popupMenu">
+				<h1>FANGAME LINKS</h1>
+				<span id="close"></span>
+				<p>Here's links to all of the fangames featured in some way on this website:</p>
+				<p style="text-align: left;"><a href="https://gbatemp.net/threads/ace-attorney-investigation-2-prosecutors-path-final-release.367451/"><strong>Ace Attorney Investigations 2: Prosecutor's Path</strong></a>: Old translation patch for AAI2<br/><br/>
+				<a href="https://www.forums.court-records.net/viewtopic.php?f=36&t=12389"><strong>Phoenix Wright: Ace Attorney - Trials after Justice</strong></a>: Fangame set between JfA and T&T<br/><br/>
+				<a href="https://gamejolt.com/games/presumption-of-gult/997241"><strong>Phoenix Wright: Ace Attorney - Presumption of Guilt</strong></a>: Fangame set between JfA and T&T<br/><br/>
+				<a href="https://www.forums.court-records.net/viewtopic.php?t=16734"><strong>Phoenix Wright: Ace Attorney - The Contempt of Court</strong></a>: Fangame set between AAI2 and AJ<br/><br/>
+				<a href="https://ashuramage.itch.io/prisoners-of-fate"><strong>Ace Attorney: Prisoners of Fate</strong></a>: Fangame set between AJ and DD<br/><br/>
+				<a href="https://turnaboutsub.weebly.com/"><strong>Turnabout Substitution</strong></a>: Unofficial "Case 5" for AJ<br/><br/>
+				<a href="https://forums.court-records.net/viewtopic.php?t=20194"><strong>Phoenix Wright: Ace Attorney - Conflict of Interest</strong></a>: AU fangame set after AJ<br/><br/>
+				<a href="https://gamejolt.com/games/truth-and-consequences/783854"><strong>Ace Attorney: Truth and Consequences</strong></a> Fangame set after SoJ<br/><br/>
+				<a href="https://gamejolt.com/games/final-trials/934768"><strong>Ace Attorney: The Final Trials</strong></a> Fangame set after SoJ<br/><br/>
+				<a href="https://www.forums.court-records.net/viewtopic.php?f=36&t=32737"><strong>Hexepta: Mayor Attack</strong></a>: Comedic fangame that serves as a sequel to another cancelled fangame<br/><br/>
+				<a href="https://www.diamondhenge.com/tc-aota"><strong>Tyrion Cuthbert: Attorney of the Arcane</strong></a>: AA-inspired game that features magic spells<br/><br/>
+			</div>
+			
 			<div id="screenshotShow" class="popupMenu">
 				<h1>SAVE/LOAD</h1>
 				<span id="close"></span>
@@ -171,6 +192,14 @@
 
 		$(document).on("click", "#save", function () { // open save/load modal
 			openScreenshotModal();
+		});
+		
+		$(document).on("click", "#layout", function() { // move collection of characters next to tierlist
+			direction = document.getElementById("wrapper").style.flexDirection;
+			if(direction == "row") {
+				document.getElementById("wrapper").style.flexDirection = "column";
+			} else {document.getElementById("wrapper").style.flexDirection = "row";
+				   };
 		});
 
 		$(document).on("change", ".characterCheck", function () { // add/remove characters

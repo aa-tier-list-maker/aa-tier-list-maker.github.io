@@ -69,6 +69,10 @@ $(document).on("click", "#filter", function () { // open filter modal
     openPopup("#filterMenu");
 });
 
+$(document).on("click", "#fangame", function () { // open fangame information modal
+    openPopup("#fangameMenu");
+});
+
 $(document).on("change", ".selectAll", function () { // add/remove all characters
     if ($(this).is(":checked")) {
         $(".characterCheck").each(function () {
@@ -95,6 +99,7 @@ function closePopups() {
     $("#charChange").css("display", "none");
     $("#helpMenu").css("display", "none");
     $("#filterMenu").css("display", "none");
+    $("#fangameMenu").css("display", "none");
     $("#screenshotShow canvas").remove();
 }
 
