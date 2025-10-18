@@ -69,6 +69,10 @@ $(document).on("click", "#filter", function () { // open filter modal
     openPopup("#filterMenu");
 });
 
+$(document).on("click", "#save", function() { // open save/load modal
+	openScreenshotModal();
+});
+
 $(document).on("click", "#fangame", function () { // open fangame information modal
     openPopup("#fangameMenu");
 });
