@@ -73,6 +73,10 @@ $(document).on("click", "#fangame", function () { // open fangame information mo
     openPopup("#fangameMenu");
 });
 
+$(document).on("click", "#debug", function () { // open debug modal (unused)
+    openPopup("#debugMenu");
+});
+
 $(document).on("change", ".selectAll", function () { // add/remove all characters
     if ($(this).is(":checked")) {
         $(".characterCheck").each(function () {
