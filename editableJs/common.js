@@ -57,6 +57,10 @@ var currentGameChars = imgGamesFolder;
 var characters;
 var characterId;
 
+$(document).on("click", "#fangame", function () { // open fangame information modal
+    openPopup("#fangameMenu");
+});
+
 $(document).on("click", "#characters", function () { // open game changer modal
     openPopup("#charChange");
 });
@@ -67,10 +71,6 @@ $(document).on("click", "#help", function () { // open help modal
 
 $(document).on("click", "#filter", function () { // open filter modal
     openPopup("#filterMenu");
-});
-
-$(document).on("click", "#fangame", function () { // open fangame information modal
-    openPopup("#fangameMenu");
 });
 
 $(document).on("change", ".selectAll", function () { // add/remove all characters
