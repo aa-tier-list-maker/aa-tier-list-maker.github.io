@@ -99,18 +99,18 @@
 			<div id="helpMenu" class="popupMenu">
 				<h1>HELP</h1>
 				<span id="close"></span>
-				<p>An expansive tierlist maker for the Ace Attorney series.<br/> <br/> 
-					<b>Dock Tierlist</b> allows you to always see the tierlist, even when scrolling down. <br/> <br/> 
-					<b>Hide Controls</b> removes the tool widget and arrows from the tierlist, allowing for a simpler design if no customization is neccessary. <br/> <br/> 
-					<b>Change Cases</b> allows you to add and remove cases to the selection that you want to tier. <br/>  <br/> 
-					<b>Filter</b> is a way to only feature specific cases to your selection of cases that you want to tier. <br/> <br/> 
-					<b>Save/Load</b> is a handy way to generate the layout of your tierlist as text, which can be stored and re-used later by pasting it in the open textarea. <br/> <br/> 
-					<b>Reset</b> removes every case from the tierlist and puts it back to the default settings. <br/> <br/> 
-					<b>Change Layout</b> is an optional button that moves the case from below the tierlist to right of it for easy access. This change can be reverted. <br/><br/>  
-					<br/> 
-					This is an Open Source project and is deployed through Github Pages. <br/> 
+				<p>An expansive tierlist maker for the Ace Attorney series.<br/><br/>
+					<b>Dock Tierlist</b> allows you to always see the tierlist, even when scrolling down.<br/><br/>
+					<b>Hide Controls</b> removes the tool widget and arrows from the tierlist, allowing for a simpler design if no customization is neccessary.<br/><br/>
+					<b>Change Cases</b> allows you to add and remove cases to the selection that you want to tier.<br/><br/>
+					<b>Filter</b> is a way to only feature specific cases to your selection of cases that you want to tier.<br/><br/>
+					<b>Save/Load</b> is a handy way to generate the layout of your tierlist as text, which can be stored and re-used later by pasting it in the open textarea.<br/><br/>
+					<b>Reset</b> removes every case from the tierlist and puts it back to the default settings.<br/><br/>
+					<b>Change Layout</b> is an optional button that moves the case from below the tierlist to right of it for easy access. This change can be reverted.<br/><br/> 
+					<br/>
+					This is an Open Source project and is deployed through Github Pages.<br/>
 					Contributors are welcome and are allowed to fork the project to expand the tierlistmaker to other franchises!<br/>
-					For questions, please contact me on Discord; my username is eyac3_37937.<br/> 
+					For questions, please contact me on Discord; my username is eyac3_37937.<br/>
 					Source Code can be found here: <a href="https://github.com/aa-tier-list-maker/aa-tier-list-maker.github.io">Click here</a></p>
 			</div>
 			<div id="screenshotShow" class="popupMenu">
@@ -178,6 +178,14 @@
 
 		$(document).on("change", ".characterCheck", function () { // add/remove characters
 			changeCharacterCheckbox(this, "jpg");
+		});
+		
+		$(document).on("click", "#layout", function() { // move collection of characters next to tierlist
+			direction = document.getElementById("wrapper").style.flexDirection;
+			if(direction == "row") {
+				document.getElementById("wrapper").style.flexDirection = "column";
+			} else {document.getElementById("wrapper").style.flexDirection = "row";
+				   };
 		});
 
 		$(document).on("dblclick", ".character", function () { // move to highest tier instantly
