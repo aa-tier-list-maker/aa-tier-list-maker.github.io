@@ -188,10 +188,6 @@
 		$(document).on("click", "#colorselect span", function() {
 			changeTierColour(this);
 		});
-
-		$(document).on("click", "#save", function() { // open save/load modal
-			openScreenshotModal();
-		});
 		
 		$(document).on("click", "#layout", function() { // move collection of characters next to tierlist
 			direction = document.getElementById("wrapper").style.flexDirection;
