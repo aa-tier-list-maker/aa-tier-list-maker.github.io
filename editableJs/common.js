@@ -95,6 +95,7 @@ function closePopups() {
     $("#charChange").css("display", "none");
     $("#helpMenu").css("display", "none");
     $("#filterMenu").css("display", "none");
+    $("#fangameMenu").css("display", "none");
     $("#screenshotShow canvas").remove();
 }
 
