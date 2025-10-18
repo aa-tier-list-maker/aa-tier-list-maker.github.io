@@ -55,13 +55,12 @@
 		</div>	
 		<h1 id="titleHeading">GAME TIER LIST MAKER</h1>
 	</div>
-
-	<div id="tablewrap">
-		<div id="tablePlaceholder" style="height:500px"></div>
-		<table id="tablemain">
-			<tbody></tbody>
-		</table>
-	</div>
+	
+	<div id="wrapper">
+		<div id="tablewrap">
+			<div id="tablePlaceholder" style="height:500px"></div>
+			<table id="tablemain"><tbody></tbody></table>
+		</div>
 
 	<div id="char" class="sort">
 		<div>If no titles are loaded here, choose a game by clicking the "Change game" button above.</div>
@@ -172,10 +171,6 @@
 		$(document).on("click", "#save", function () { // open save/load modal
 			openScreenshotModal();
 		});
-
-		$(document).on("change", ".characterCheck", function () { // add/remove characters
-			changeCharacterCheckbox(this, "jpg");
-		});
 		
 		$(document).on("click", "#layout", function() { // move collection of characters next to tierlist
 			direction = document.getElementById("wrapper").style.flexDirection;
@@ -183,6 +178,10 @@
 				document.getElementById("wrapper").style.flexDirection = "column";
 			} else {document.getElementById("wrapper").style.flexDirection = "row";
 				   };
+		});
+
+		$(document).on("change", ".characterCheck", function () { // add/remove characters
+			changeCharacterCheckbox(this, "jpg");
 		});
 
 		$(document).on("dblclick", ".character", function () { // move to highest tier instantly
