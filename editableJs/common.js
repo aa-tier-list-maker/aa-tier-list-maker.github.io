@@ -51,7 +51,9 @@ var imgGamesFolder = [
     ["coc", 14, "Contempt of Court"],
     ["cocex", 6, "Contempt of Court (Extras)"],
     
+    ["pof", 6, "Prisoners of Fate"],
     ["pog", 3, "Presumption of Guilt"],
+    
     ["ryan", 0, "Ryan Mendoza: New Attorney"]
 ];
 
