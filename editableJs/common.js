@@ -43,11 +43,15 @@ var imgGamesFolder = [
     ["gtex", 4, "Ghost Trick (Extras)"],
     
     ["aota", 39, "Attorney of the Arcane"],
+    ["tsub", 17, "Turnabout Substitution"],
+    
     ["taj", 15, "Trials after Justice"],
+    ["jakkid", 20, "The Jakkid Series"],
     
     ["coc", 14, "Contempt of Court"],
     ["cocex", 6, "Contempt of Court (Extras)"],
     
+    ["pog", 3, "Presumption of Guilt"],
     ["ryan", 0, "Ryan Mendoza: New Attorney"]
 ];
 
