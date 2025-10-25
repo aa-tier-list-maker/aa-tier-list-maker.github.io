@@ -46,13 +46,13 @@ var imgGamesFolder = [
     ["tsub", 17, "Turnabout Substitution"],
     
     ["taj", 15, "Trials after Justice"],
-    ["jakkid", 20, "The Jakkid Series"],
+    ["pog", 3, "Presumption of Guilt"],
     
     ["coc", 14, "Contempt of Court"],
     ["cocex", 6, "Contempt of Court (Extras)"],
     
     ["pof", 6, "Prisoners of Fate"],
-    ["pog", 3, "Presumption of Guilt"],
+    ["jakkid", 20, "The Jakkid Series"],
     
     ["ryan", 0, "Ryan Mendoza: New Attorney"]
 ];
