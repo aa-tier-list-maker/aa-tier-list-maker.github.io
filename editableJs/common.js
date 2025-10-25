@@ -33,10 +33,10 @@ var imgGamesFolder = [
     ["plvpw", 27, "Professor Layton"],
     ["plvpwex", 7, "Professor Layton (Extras)"],
     
-    ["tgaa1", 33, "TGAA: Adventures"],
+    ["tgaa1", 34, "TGAA: Adventures"],
     ["tgaa1ex", 1, "TGAA: Adventures (Extras)"],
     
-    ["tgaa2", 24, "TGAA2: Resolve"],
+    ["tgaa2", 25, "TGAA2: Resolve"],
     ["tgaa2ex", 10, "TGAA2: Resolve (Extras)"],
     
     ["gt", 32, "Ghost Trick: Phantom Detective"],
