@@ -386,45 +386,45 @@ const imgTags = {
         39: [judge], // Rathallion, the Scaled Lord
     },  
         
-    "taj": {
-        0: [prosecutor], // Luis Hawk
+    // "taj": {
+        // 0: [prosecutor], // Luis Hawk
             
-        1: [defendant], // 
-        2: [victim], // 
-        3: [culprit], // 
+        // 1: [defendant], // 
+        // 2: [victim], // 
+        // 3: [culprit], // 
             
-        4: [defendant], // 
-        5: [victim], // 
-        8: [culprit], // 
+        // 4: [defendant], // 
+        // 5: [victim], // 
+        // 8: [culprit], // 
             
-        10: [defendant], // 
-        11: [victim], // 
-        14: [culprit], // 
-    },  
+        // 10: [defendant], // 
+        // 11: [victim], // 
+        // 14: [culprit], // 
+    // },  
         
-    "coc": {
-        0: [defendant], // Robert Snow
-        1: [prosecutor, culprit], // Vex Vulper
-        2: [prosecutor, victim], // Erol Brisbane
+    // "coc": {
+        // 0: [defendant], // Robert Snow
+        // 1: [prosecutor, culprit], // Vex Vulper
+        // 2: [prosecutor, victim], // Erol Brisbane
             
-        3: [victim], // 
-        4: [playable, defense, defendant], // 
-        5: [victim], // Titus Krump
+        // 3: [victim], // 
+        // 4: [playable, defense, defendant], // 
+        // 5: [victim], // Titus Krump
             
-        6: [defendant], // 
-        7: [culprit], // 
-        8: [victim], // Stan Nyph
+        // 6: [defendant], // 
+        // 7: [culprit], // 
+        // 8: [victim], // Stan Nyph
             
-        11: [defendant, culprit], // 
-        13: [victim], // 
-    },  
-    "cocex": {
-        2: [defendant], // Erol Brisbane
-        5: [culprit], // Hemlock
-        6: [culprit], // Boogeyman
-    },  
+        // 11: [defendant, culprit], // 
+        // 13: [victim], // 
+    // },  
+    // "cocex": {
+        // 2: [defendant], // Erol Brisbane
+        // 5: [culprit], // Hemlock
+        // 6: [culprit], // Boogeyman
+    // },  
         
-    "ryan": {
-        0: [prosecutor], // Rodrigo Starwalker
-    },  
+    // "ryan": {
+        // 0: [prosecutor], // Rodrigo Starwalker
+    // },  
 }
