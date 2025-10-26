@@ -31,7 +31,7 @@
 			<hr>
 			<li><button id="hidebuttons">Hide controls</button></li>
 			<hr>
-			<li><button id="characters">Change games</button></li>
+			<li><button id="characters">Change games!</button></li>
 			<hr>
 			<li><button id="help">Help</button></li>
 			<hr>
@@ -272,10 +272,9 @@
 		});
 
 		function changeGame(game) {
-			buildCharacterLists(game);
-			$(".selectAll").prop('checked', true).change();
-			$("h1 span").text(currentGame);
-		}
+			$(".filterCheck").each( function() {
+				$(this).prop('checked', true).change();
+			}
 
 		$(document).ready(function () {
 			initTable();
