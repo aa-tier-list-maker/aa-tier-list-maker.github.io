@@ -137,15 +137,18 @@
 			<div id="screenshotShow" class="popupMenu">
 				<h1>SAVE/LOAD</h1>
 				<span id="close"></span>
-				<p style="text-align: left;">Your image will appear above after pressing "Take screenshot". You can copy
-					or save this image.</p>
+				<p style="text-align: left;">Your image will appear above after pressing "Take screenshot". You can copy or save this image.</p>
 				<div><button id="screenshot">Take screenshot</button></div>
-				<p style="text-align: left;">Alternatively, copy the code below to share an editable version of your
-					tierlist. Paste a code into the box below and click "Run code" to load another tier list.</p>
-				<p style="text-align: left;">Note that any case that does not appear in the loaded list will be
-					deselected.</p>
+				<p style="text-align: left;">Alternatively, copy the code below to share an editable version of your tierlist. Paste a code into the box below and click "Run code" to load another tier list.</p>
+				<p style="text-align: left;">Note that any game that does not appear in the loaded list will be deselected.</p>
 				<textarea id="exportcode" rows="8"></textarea>
-				<div><button id="runCode">Run code</button></div>
+				<div>
+					<button id="runCode">Run code</button>
+					<button id="copyCode">Copy code</button>
+				</div>
+				<div>
+					<button id="postLocalstorage">Save locally in browser</button>
+					<button id="getLocalstorage">Get locally from browser</button>
 			</div>
 		</div>
 	</div>
