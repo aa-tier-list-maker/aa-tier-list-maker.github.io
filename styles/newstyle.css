@@ -522,11 +522,17 @@ button:active {
 }
 
 /* New Entries */
-.aao li{
-width:50%
+.aao ul {
+      display: block;
+      width: 100%;
 }
 
-.aao ul{
-display:flex;
-flex-wrap:wrap
+.aao li{
+    display: block;
+    min-width: calc(30% - 10px);
+    float: left;
+}
+
+.aao li:nth-child(2n + 1){
+    clear: left;
 }
