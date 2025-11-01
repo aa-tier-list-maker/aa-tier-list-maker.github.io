@@ -522,17 +522,11 @@ button:active {
 }
 
 /* New Entries */
-.aao ul {
-      display: block;
-      width: 100%;
-}
-
 .aao li{
-    display: block;
-    min-width: calc(30% - 10px);
-    float: left;
+width:50%
 }
 
-.aao li:nth-child(2n + 1){
-    clear: left;
+.aao ul{
+display:flex;
+flex-wrap:wrap
 }
