@@ -522,14 +522,11 @@ button:active {
 }
 
 /* New Entries */
-.row {
-  display: flex;
+li{
+width:50%
 }
 
-.column {
-  flex: 50%;
-}
-
-.column-list {
-  column-count: 2;
+ul{
+display:flex;
+flex-wrap:wrap
 }
