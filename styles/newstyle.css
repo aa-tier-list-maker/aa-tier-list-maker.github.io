@@ -522,11 +522,13 @@ button:active {
 }
 
 /* New Entries */
-.aao li{
-width:50%
-}
-
 .aao ul{
+list-style-type: none;
+padding: 0px;
 display:flex;
 flex-wrap:wrap
+}
+
+.aao li{
+width:50%
 }
