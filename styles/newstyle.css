@@ -522,11 +522,11 @@ button:active {
 }
 
 /* New Entries */
-li{
+.aao li{
 width:50%
 }
 
-ul{
+.aao ul{
 display:flex;
 flex-wrap:wrap
 }
