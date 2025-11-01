@@ -529,3 +529,7 @@ button:active {
 .column {
   flex: 50%;
 }
+
+.column-list {
+  column-count: 2;
+}
