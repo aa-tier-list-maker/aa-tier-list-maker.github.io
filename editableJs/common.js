@@ -47,7 +47,6 @@ var imgGamesFolder = [
     
     ["taj", 15, "Trials after Justice"],
     ["pog", 3, "Presumption of Guilt"],
-    ["pof", 6, "Presumption of Guilt"],
     
     ["coc", 14, "Contempt of Court"],
     ["cocex", 6, "Contempt of Court (Extras)"],
