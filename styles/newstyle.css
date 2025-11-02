@@ -520,3 +520,15 @@ button:active {
 	display: flex;
 	flex-direction: column;
 }
+
+/* New Entries */
+.aao ul{
+list-style-type: none;
+padding: 0px;
+display:flex;
+flex-wrap:wrap
+}
+
+.aao li{
+width:50%
+}
